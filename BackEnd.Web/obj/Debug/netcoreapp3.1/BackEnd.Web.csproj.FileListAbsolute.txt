@@ -1,0 +1,551 @@
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\appsettings.json
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.StaticWebAssets.xml
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.exe
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.deps.json
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.runtimeconfig.json
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.runtimeconfig.dev.json
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.pdb
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Castle.Core.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\EntityFramework.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\BackEnd.BAL.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\BackEnd.DAL.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\BackEnd.Service.dll
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\BackEnd.Service.pdb
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\BackEnd.BAL.pdb
+E:\NextMove\RealState - Copy\RealState.Web\bin\Debug\netcoreapp3.1\BackEnd.DAL.pdb
+E:\NextMove\RealState - Copy\RealState.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.csprojAssemblyReference.cache
+E:\NextMove\RealState - Copy\RealState.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.AssemblyInfoInputs.cache
+E:\NextMove\RealState - Copy\RealState.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.AssemblyInfo.cs
+E:\NextMove\RealState - Copy\RealState.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.csproj.CoreCompileInputs.cache
+E:\NextMove\RealState - Copy\RealState.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.MvcApplicationPartsAssemblyInfo.cs
+E:\NextMove\RealState - Copy\RealState.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.MvcApplicationPartsAssemblyInfo.cache
+E:\NextMove\RealState - Copy\RealState.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.RazorTargetAssemblyInfo.cache
+E:\NextMove\RealState - Copy\RealState.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.csproj.CopyComplete
+E:\NextMove\RealState - Copy\RealState.Web\obj\Debug\netcoreapp3.1\staticwebassets\BackEnd.Web.StaticWebAssets.Manifest.cache
+E:\NextMove\RealState - Copy\RealState.Web\obj\Debug\netcoreapp3.1\staticwebassets\BackEnd.Web.StaticWebAssets.xml
+E:\NextMove\RealState - Copy\RealState.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.dll
+E:\NextMove\RealState - Copy\RealState.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.pdb
+E:\NextMove\RealState - Copy\RealState.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.genruntimeconfig.cache
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\appsettings.json
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.StaticWebAssets.xml
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.exe
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.deps.json
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.runtimeconfig.json
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.runtimeconfig.dev.json
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.pdb
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Castle.Core.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\EntityFramework.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.BAL.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.DAL.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Service.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Service.pdb
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.BAL.pdb
+E:\NextMove\RealState - Copy\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.DAL.pdb
+E:\NextMove\RealState - Copy\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.csprojAssemblyReference.cache
+E:\NextMove\RealState - Copy\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.AssemblyInfoInputs.cache
+E:\NextMove\RealState - Copy\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.AssemblyInfo.cs
+E:\NextMove\RealState - Copy\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.csproj.CoreCompileInputs.cache
+E:\NextMove\RealState - Copy\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.MvcApplicationPartsAssemblyInfo.cs
+E:\NextMove\RealState - Copy\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.MvcApplicationPartsAssemblyInfo.cache
+E:\NextMove\RealState - Copy\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.RazorTargetAssemblyInfo.cache
+E:\NextMove\RealState - Copy\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.csproj.CopyComplete
+E:\NextMove\RealState - Copy\BackEnd.Web\obj\Debug\netcoreapp3.1\staticwebassets\BackEnd.Web.StaticWebAssets.Manifest.cache
+E:\NextMove\RealState - Copy\BackEnd.Web\obj\Debug\netcoreapp3.1\staticwebassets\BackEnd.Web.StaticWebAssets.xml
+E:\NextMove\RealState - Copy\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.dll
+E:\NextMove\RealState - Copy\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.pdb
+E:\NextMove\RealState - Copy\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.genruntimeconfig.cache
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\appsettings.json
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.StaticWebAssets.xml
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.exe
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.deps.json
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.runtimeconfig.json
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.runtimeconfig.dev.json
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.pdb
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Castle.Core.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\EntityFramework.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.BAL.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.DAL.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Service.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Service.pdb
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.BAL.pdb
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.DAL.pdb
+E:\NextMove\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.csprojAssemblyReference.cache
+E:\NextMove\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.AssemblyInfoInputs.cache
+E:\NextMove\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.AssemblyInfo.cs
+E:\NextMove\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.RazorTargetAssemblyInfo.cache
+E:\NextMove\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.csproj.CopyComplete
+E:\NextMove\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\staticwebassets\BackEnd.Web.StaticWebAssets.Manifest.cache
+E:\NextMove\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\staticwebassets\BackEnd.Web.StaticWebAssets.xml
+E:\NextMove\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.dll
+E:\NextMove\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.pdb
+E:\NextMove\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.genruntimeconfig.cache
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+E:\NextMove\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\NextMove\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.csproj.CoreCompileInputs.cache
+E:\NextMove\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.MvcApplicationPartsAssemblyInfo.cs
+E:\NextMove\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.MvcApplicationPartsAssemblyInfo.cache
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\appsettings.json
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.StaticWebAssets.xml
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.exe
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.deps.json
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.runtimeconfig.json
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.runtimeconfig.dev.json
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.pdb
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Castle.Core.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\EntityFramework.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.BAL.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.DAL.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Service.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Service.pdb
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.BAL.pdb
+E:\NextMove\cashier\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.DAL.pdb
+E:\NextMove\cashier\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.csprojAssemblyReference.cache
+E:\NextMove\cashier\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.AssemblyInfoInputs.cache
+E:\NextMove\cashier\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.AssemblyInfo.cs
+E:\NextMove\cashier\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.csproj.CoreCompileInputs.cache
+E:\NextMove\cashier\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.MvcApplicationPartsAssemblyInfo.cs
+E:\NextMove\cashier\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.MvcApplicationPartsAssemblyInfo.cache
+E:\NextMove\cashier\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.RazorTargetAssemblyInfo.cache
+E:\NextMove\cashier\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.csproj.CopyComplete
+E:\NextMove\cashier\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\staticwebassets\BackEnd.Web.StaticWebAssets.Manifest.cache
+E:\NextMove\cashier\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\staticwebassets\BackEnd.Web.StaticWebAssets.xml
+E:\NextMove\cashier\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.dll
+E:\NextMove\cashier\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.pdb
+E:\NextMove\cashier\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.genruntimeconfig.cache
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\appsettings.json
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.StaticWebAssets.xml
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.exe
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.deps.json
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.runtimeconfig.json
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.runtimeconfig.dev.json
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.pdb
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.BAL.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.DAL.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Service.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Service.pdb
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.BAL.pdb
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.DAL.pdb
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.csprojAssemblyReference.cache
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.csproj.CoreCompileInputs.cache
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.AssemblyInfoInputs.cache
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.AssemblyInfo.cs
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.RazorTargetAssemblyInfo.cache
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.csproj.CopyComplete
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\obj\Debug\netcoreapp3.1\staticwebassets\BackEnd.Web.StaticWebAssets.Manifest.cache
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\obj\Debug\netcoreapp3.1\staticwebassets\BackEnd.Web.StaticWebAssets.xml
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.dll
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.pdb
+C:\MohamedFahmy\work\Owners\cashierbackend\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.genruntimeconfig.cache
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.StaticWebAssets.xml
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.exe
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.deps.json
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.runtimeconfig.json
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.runtimeconfig.dev.json
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.pdb
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Castle.Core.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\EntityFramework.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.BAL.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.DAL.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Service.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Service.pdb
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.BAL.pdb
+D:\Wuzzufny\BackEnd\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.DAL.pdb
+D:\Wuzzufny\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.csprojAssemblyReference.cache
+D:\Wuzzufny\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\staticwebassets\BackEnd.Web.StaticWebAssets.Manifest.cache
+D:\Wuzzufny\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\staticwebassets\BackEnd.Web.StaticWebAssets.xml
+D:\Wuzzufny\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.MvcApplicationPartsAssemblyInfo.cs
+D:\Wuzzufny\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.MvcApplicationPartsAssemblyInfo.cache
+D:\Wuzzufny\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.AssemblyInfoInputs.cache
+D:\Wuzzufny\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.AssemblyInfo.cs
+D:\Wuzzufny\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.RazorTargetAssemblyInfo.cache
+D:\Wuzzufny\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.csproj.CopyComplete
+D:\Wuzzufny\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.dll
+D:\Wuzzufny\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.pdb

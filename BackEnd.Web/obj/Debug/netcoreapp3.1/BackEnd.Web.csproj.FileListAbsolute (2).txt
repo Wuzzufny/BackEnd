@@ -1,0 +1,355 @@
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.BAL.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.DAL.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Service.dll
+D:\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.csprojAssemblyReference.cache
+D:\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.AssemblyInfoInputs.cache
+D:\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.AssemblyInfo.cs
+D:\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.RazorTargetAssemblyInfo.cache
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\appsettings.json
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Web.StaticWebAssets.xml
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Web.exe
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Web.deps.json
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Web.runtimeconfig.json
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Web.runtimeconfig.dev.json
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Web.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Web.pdb
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Castle.Core.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Service.pdb
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.BAL.pdb
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.DAL.pdb
+D:\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.csproj.CopyComplete
+D:\RealState\RealState.Web\obj\Debug\netcoreapp3.1\staticwebassets\RealState.Web.StaticWebAssets.Manifest.cache
+D:\RealState\RealState.Web\obj\Debug\netcoreapp3.1\staticwebassets\RealState.Web.StaticWebAssets.xml
+D:\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.dll
+D:\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.pdb
+D:\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.genruntimeconfig.cache
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\EntityFramework.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.csproj.CoreCompileInputs.cache
+D:\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.MvcApplicationPartsAssemblyInfo.cache
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\appsettings.json
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Web.StaticWebAssets.xml
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Web.exe
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Web.deps.json
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Web.runtimeconfig.json
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Web.runtimeconfig.dev.json
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Web.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Web.pdb
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Castle.Core.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\EntityFramework.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.BAL.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.DAL.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Service.dll
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Service.pdb
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.BAL.pdb
+D:\تطوير العقارات\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.DAL.pdb
+D:\تطوير العقارات\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.csprojAssemblyReference.cache
+D:\تطوير العقارات\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.AssemblyInfoInputs.cache
+D:\تطوير العقارات\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.AssemblyInfo.cs
+D:\تطوير العقارات\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.csproj.CoreCompileInputs.cache
+D:\تطوير العقارات\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.MvcApplicationPartsAssemblyInfo.cs
+D:\تطوير العقارات\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.MvcApplicationPartsAssemblyInfo.cache
+D:\تطوير العقارات\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.RazorTargetAssemblyInfo.cache
+D:\تطوير العقارات\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.csproj.CopyComplete
+D:\تطوير العقارات\RealState\RealState.Web\obj\Debug\netcoreapp3.1\staticwebassets\RealState.Web.StaticWebAssets.Manifest.cache
+D:\تطوير العقارات\RealState\RealState.Web\obj\Debug\netcoreapp3.1\staticwebassets\RealState.Web.StaticWebAssets.xml
+D:\تطوير العقارات\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.dll
+D:\تطوير العقارات\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.pdb
+D:\تطوير العقارات\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.genruntimeconfig.cache
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Castle.Core.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\EntityFramework.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.BAL.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.DAL.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Service.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Service.pdb
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.BAL.pdb
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.DAL.pdb
+D:\تطوير العقارات2\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.csprojAssemblyReference.cache
+D:\تطوير العقارات2\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.AssemblyInfoInputs.cache
+D:\تطوير العقارات2\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.AssemblyInfo.cs
+D:\تطوير العقارات2\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.csproj.CoreCompileInputs.cache
+D:\تطوير العقارات2\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.MvcApplicationPartsAssemblyInfo.cache
+D:\تطوير العقارات2\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.RazorTargetAssemblyInfo.cache
+D:\تطوير العقارات2\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.csproj.CopyComplete
+D:\تطوير العقارات2\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.dll
+D:\تطوير العقارات2\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.pdb
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\appsettings.json
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Web.StaticWebAssets.xml
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Web.exe
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Web.deps.json
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Web.runtimeconfig.json
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Web.runtimeconfig.dev.json
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Web.dll
+D:\تطوير العقارات2\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Web.pdb
+D:\تطوير العقارات2\RealState\RealState.Web\obj\Debug\netcoreapp3.1\staticwebassets\RealState.Web.StaticWebAssets.Manifest.cache
+D:\تطوير العقارات2\RealState\RealState.Web\obj\Debug\netcoreapp3.1\staticwebassets\RealState.Web.StaticWebAssets.xml
+D:\تطوير العقارات2\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.genruntimeconfig.cache
+E:\NextMove\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.dll
+E:\NextMove\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.pdb
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\appsettings.json
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Web.exe
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Web.StaticWebAssets.xml
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Web.deps.json
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Web.runtimeconfig.json
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Web.runtimeconfig.dev.json
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Web.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Web.pdb
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Service.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.Service.pdb
+E:\NextMove\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.csprojAssemblyReference.cache
+E:\NextMove\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.AssemblyInfoInputs.cache
+E:\NextMove\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.AssemblyInfo.cs
+E:\NextMove\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.RazorTargetAssemblyInfo.cache
+E:\NextMove\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.csproj.CopyComplete
+E:\NextMove\RealState\RealState.Web\obj\Debug\netcoreapp3.1\staticwebassets\RealState.Web.StaticWebAssets.Manifest.cache
+E:\NextMove\RealState\RealState.Web\obj\Debug\netcoreapp3.1\staticwebassets\RealState.Web.StaticWebAssets.xml
+E:\NextMove\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.genruntimeconfig.cache
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Castle.Core.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\EntityFramework.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.BAL.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.DAL.dll
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.BAL.pdb
+E:\NextMove\RealState\RealState.Web\bin\Debug\netcoreapp3.1\RealState.DAL.pdb
+E:\NextMove\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.csproj.CoreCompileInputs.cache
+E:\NextMove\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.MvcApplicationPartsAssemblyInfo.cs
+E:\NextMove\RealState\RealState.Web\obj\Debug\netcoreapp3.1\RealState.Web.MvcApplicationPartsAssemblyInfo.cache

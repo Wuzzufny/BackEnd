@@ -1,0 +1,68 @@
+D:\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.csprojAssemblyReference.cache
+D:\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.csproj.CoreCompileInputs.cache
+D:\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.AssemblyInfoInputs.cache
+D:\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.AssemblyInfo.cs
+D:\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.Service.deps.json
+D:\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.Service.dll
+D:\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.Service.pdb
+D:\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.BAL.dll
+D:\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.DAL.dll
+D:\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.BAL.pdb
+D:\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.DAL.pdb
+D:\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.csproj.CopyComplete
+D:\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.dll
+D:\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.pdb
+D:\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.Service.runtimeconfig.json
+D:\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.Service.runtimeconfig.dev.json
+D:\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.genruntimeconfig.cache
+D:\تطوير العقارات\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.Service.deps.json
+D:\تطوير العقارات\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.Service.runtimeconfig.json
+D:\تطوير العقارات\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.Service.runtimeconfig.dev.json
+D:\تطوير العقارات\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.Service.dll
+D:\تطوير العقارات\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.Service.pdb
+D:\تطوير العقارات\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.BAL.dll
+D:\تطوير العقارات\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.DAL.dll
+D:\تطوير العقارات\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.BAL.pdb
+D:\تطوير العقارات\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.DAL.pdb
+D:\تطوير العقارات\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.csprojAssemblyReference.cache
+D:\تطوير العقارات\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.AssemblyInfoInputs.cache
+D:\تطوير العقارات\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.AssemblyInfo.cs
+D:\تطوير العقارات\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.csproj.CoreCompileInputs.cache
+D:\تطوير العقارات\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.csproj.CopyComplete
+D:\تطوير العقارات\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.dll
+D:\تطوير العقارات\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.pdb
+D:\تطوير العقارات\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.genruntimeconfig.cache
+D:\تطوير العقارات2\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.Service.deps.json
+D:\تطوير العقارات2\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.Service.runtimeconfig.json
+D:\تطوير العقارات2\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.Service.runtimeconfig.dev.json
+D:\تطوير العقارات2\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.Service.dll
+D:\تطوير العقارات2\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.Service.pdb
+D:\تطوير العقارات2\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.BAL.dll
+D:\تطوير العقارات2\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.DAL.dll
+D:\تطوير العقارات2\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.BAL.pdb
+D:\تطوير العقارات2\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.DAL.pdb
+D:\تطوير العقارات2\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.csprojAssemblyReference.cache
+D:\تطوير العقارات2\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.AssemblyInfoInputs.cache
+D:\تطوير العقارات2\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.AssemblyInfo.cs
+D:\تطوير العقارات2\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.csproj.CoreCompileInputs.cache
+D:\تطوير العقارات2\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.csproj.CopyComplete
+D:\تطوير العقارات2\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.dll
+D:\تطوير العقارات2\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.pdb
+D:\تطوير العقارات2\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.genruntimeconfig.cache
+E:\NextMove\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.dll
+E:\NextMove\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.pdb
+E:\NextMove\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.Service.deps.json
+E:\NextMove\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.Service.runtimeconfig.json
+E:\NextMove\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.Service.runtimeconfig.dev.json
+E:\NextMove\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.Service.dll
+E:\NextMove\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.Service.pdb
+E:\NextMove\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.BAL.dll
+E:\NextMove\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.DAL.dll
+E:\NextMove\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.BAL.pdb
+E:\NextMove\RealState\RealState.Service\bin\Debug\netcoreapp3.1\RealState.DAL.pdb
+E:\NextMove\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.csprojAssemblyReference.cache
+E:\NextMove\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.AssemblyInfoInputs.cache
+E:\NextMove\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.AssemblyInfo.cs
+E:\NextMove\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.csproj.CoreCompileInputs.cache
+E:\NextMove\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.csproj.CopyComplete
+E:\NextMove\RealState\RealState.Service\obj\Debug\netcoreapp3.1\RealState.Service.genruntimeconfig.cache

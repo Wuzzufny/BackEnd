@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "9om9C82tKWOiPShre0zH5f3HHGLCHX8ObD5YDDjHGG4jnPCQLyDbH+IsFgMYhkb1F/sGukV3C+PwGq/BP7cJBA==",
+  "success": false,
+  "projectFilePath": "E:\\NextMove\\RealState - Copy\\RealState.BAL\\BackEnd.BAL.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'E:\\NextMove\\RealState - Copy\\BackEnd.DAL\\BackEnd.DAL.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "E:\\NextMove\\RealState - Copy\\BackEnd.DAL\\BackEnd.DAL.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
