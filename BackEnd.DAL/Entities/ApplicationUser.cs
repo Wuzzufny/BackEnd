@@ -8,5 +8,6 @@ namespace BackEnd.DAL.Entities
 {
     public class ApplicationUser : IdentityUser
     {
+        public string Code { get; set; }
     }
 }

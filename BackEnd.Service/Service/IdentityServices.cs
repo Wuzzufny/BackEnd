@@ -9,6 +9,8 @@ using BackEnd.BAL.Models;
 using BackEnd.DAL.Context;
 using BackEnd.DAL.Entities;
 using BackEnd.Service.ISercice;
+using BackEnd.Service.IService;
+using BackEnd.Service.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 
@@ -21,17 +23,21 @@ namespace BackEnd.Service.Service
     private readonly ApplicationSettings _jwtSettings;
     private readonly TokenValidationParameters _TokenValidationParameters;
     private readonly BakEndContext _dataContext;
-    public IdentityServices(UserManager<ApplicationUser> userManager,
+    private readonly IEmailSender _emailSender;
+        public IdentityServices(UserManager<ApplicationUser> userManager,
       ApplicationSettings jwtSettings,
       TokenValidationParameters TokenValidationParameters,
       RoleManager<IdentityRole> roleManager,
-      BakEndContext dataContext)
+      BakEndContext dataContext,
+      IEmailSender emailSender
+      )
     {
       _userManager = userManager;
       _roleManager = roleManager;
       _jwtSettings = jwtSettings;
       _TokenValidationParameters = TokenValidationParameters;
       _dataContext = dataContext;
+      _emailSender = emailSender;
     }
 
     public async Task<AuthenticationResult> LoginAsync(string Email, string Password)
@@ -55,9 +61,66 @@ namespace BackEnd.Service.Service
       }
       return await GenerateAutheticationForResultForUser(user);
     }
+    public async Task<AuthenticationResult> ForgotPassword(string Email)
+    {
+            var user = await _userManager.FindByEmailAsync(Email);
+            if (user == null)
+            {
+                return new AuthenticationResult
+                {
+                    Errors = new[] { "User does not Exist" }
+                };
+            }
+            else
+            {
+                //generate reset password token
+                 string resetToken = await _userManager.GeneratePasswordResetTokenAsync(user);
 
-  
-    private ClaimsPrincipal GetPrincipalFromToken(string Token) {
+                //send email with this code to email
+                if (!string.IsNullOrEmpty(resetToken))
+                {
+                    //send email with this code to email
+                    string subject = "Wuzzufny Forgot Password Code";
+                    string body = "Kindly copy this code to use in <br>  mobile app Reset Password Page ,<br>  the code is  <br>" + resetToken;
+                    Message message = new Message(new List<string> { Email }, subject,body);
+                    await _emailSender.SendEmail(message);
+                }
+                //
+                return new AuthenticationResult
+                {
+                    Success = true,
+                    //Token = resetToken
+                };
+            }
+
+        }
+
+        public async Task<AuthenticationResult> ResetPassword(string Email, string Code,string NewPassword)
+        {
+            var user = await _userManager.FindByEmailAsync(Email);
+            if (user == null)
+            {
+                return new AuthenticationResult
+                {
+                    Errors = new[] { "User does not Exist" }
+                };
+            }
+            else
+            {
+               
+                IdentityResult result = await _userManager.ResetPasswordAsync(user,Code,NewPassword);
+
+                return new AuthenticationResult
+                {
+                    Success = result.Succeeded,
+                    Errors=result.Errors.Select(x => x.Description)
+                };
+            }
+
+        }
+
+
+        private ClaimsPrincipal GetPrincipalFromToken(string Token) {
       var tokenHandler = new JwtSecurityTokenHandler();
       try {
         var principal = tokenHandler.ValidateToken(Token, _TokenValidationParameters, out var validtionToken);

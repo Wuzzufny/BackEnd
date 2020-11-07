@@ -16,8 +16,9 @@ namespace BackEnd.BAL.ApiRoute
       public const string Login = Base + "Identity/Login";
       public const string Register = Base + "/Identity/Register";
       public const string Roles = Base + "/Identity/Roles";
+      public const string ForgotPassword = Base + "/Identity/ForgotPassword";
+      public const string ResetPassword = Base + "/Identity/ResetPassword";
     }
-
 
   }
 }

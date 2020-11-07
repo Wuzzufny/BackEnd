@@ -1,30 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Wuzzufny\\BackEnd\\BackEnd.DAL\\BackEnd.DAL.csproj": {}
+    "G:\\wuzzuf\\BackEnd\\BackEnd.DAL\\BackEnd.DAL.csproj": {}
   },
   "projects": {
-    "D:\\Wuzzufny\\BackEnd\\BackEnd.DAL\\BackEnd.DAL.csproj": {
+    "G:\\wuzzuf\\BackEnd\\BackEnd.DAL\\BackEnd.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Wuzzufny\\BackEnd\\BackEnd.DAL\\BackEnd.DAL.csproj",
+        "projectUniqueName": "G:\\wuzzuf\\BackEnd\\BackEnd.DAL\\BackEnd.DAL.csproj",
         "projectName": "BackEnd.DAL",
-        "projectPath": "D:\\Wuzzufny\\BackEnd\\BackEnd.DAL\\BackEnd.DAL.csproj",
-        "packagesPath": "C:\\Users\\engsa\\.nuget\\packages\\",
-        "outputPath": "D:\\Wuzzufny\\BackEnd\\BackEnd.DAL\\obj\\",
+        "projectPath": "G:\\wuzzuf\\BackEnd\\BackEnd.DAL\\BackEnd.DAL.csproj",
+        "packagesPath": "C:\\Users\\hebaa\\.nuget\\packages\\",
+        "outputPath": "G:\\wuzzuf\\BackEnd\\BackEnd.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\engsa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\hebaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },

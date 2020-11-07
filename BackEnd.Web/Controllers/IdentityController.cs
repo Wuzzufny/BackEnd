@@ -67,6 +67,53 @@ namespace Project.Controllers.V1
       return _BakEndContext.Roles.ToList();
     }
 
+    [HttpPost(ApiRoute.Identity.ForgotPassword)]
+    public async Task<IActionResult> ForgotPassword(UserForgotPasswordRequest  userForgotPasswordRequest)
+    {
+        if (!ModelState.IsValid)
+        {
+            IEnumerable<string> ModelStateErrorMsgs= ModelState.Values.SelectMany(x => x.Errors.Select(xx => xx.ErrorMessage));
+            return BadRequest(ModelStateErrorMsgs);
 
+        }
+            AuthenticationResult result = await _identityService.ForgotPassword(userForgotPasswordRequest.Email);
+        if (!result.Success)
+        {
+            return BadRequest(
+                new AuthFaildResponse
+                {
+                    Errors = result.Errors
+                }
+                ) ;
+        }
+
+        return Ok(true);
+    }
+        
+    [HttpPost(ApiRoute.Identity.ResetPassword)]
+    public async Task<IActionResult> ResetPassword(UserResetPasswordRequest userResetPasswordRequest)
+    {
+        if (!ModelState.IsValid)
+        {
+            IEnumerable<string> ModelStateErrorMsgs = ModelState.Values.SelectMany(x => x.Errors.Select(xx => xx.ErrorMessage));
+            return BadRequest(ModelStateErrorMsgs);
+
+        }
+        AuthenticationResult result = await _identityService.ResetPassword(
+                                                userResetPasswordRequest.Email,
+                                                userResetPasswordRequest.Code,
+                                                userResetPasswordRequest.NewPassword);
+        if (!result.Success)
+        {
+            return BadRequest(
+                new AuthFaildResponse
+                {
+                    Errors = result.Errors
+                }
+                );
+        }
+
+        return Ok(true);
+    }
   }
 }

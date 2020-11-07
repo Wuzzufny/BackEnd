@@ -24,8 +24,9 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using System.IO;
 using System.Reflection;
-using BackEnd.Service.ISercice;
 using BackEnd.Service.Service;
+using BackEnd.Service.IService;
+using BackEnd.Service.ISercice;
 
 namespace BackEnd.Web
 {
@@ -152,8 +153,21 @@ namespace BackEnd.Web
         x.SaveToken = true;
         x.TokenValidationParameters = tokenValidationParameters;
       });
-      //----------------------------end jwtSettings-------------------------------------
-      services.AddScoped<IidentityServices, IdentityServices>();
+        //----------------------------end jwtSettings-------------------------------------
+
+        //----------------------email settings
+        var notificationMetadata =
+        Configuration.GetSection("EmailConfiguration").
+        Get<EmailConfiguration>();
+        services.AddSingleton(notificationMetadata);
+        services.AddScoped<IEmailSender, EmailSender>();
+
+        //----------------------end email settings
+
+
+        services.AddScoped<IidentityServices, IdentityServices>();
+
+
     }
 
 
