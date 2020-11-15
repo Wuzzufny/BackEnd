@@ -3,15 +3,19 @@ using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 using BackEnd.BAL.Models;
 using BackEnd.DAL.Context;
 using BackEnd.DAL.Entities;
+using BackEnd.Service.Helpers;
 using BackEnd.Service.ISercice;
 using BackEnd.Service.IService;
 using BackEnd.Service.Models;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Caching.Memory;
 using Microsoft.IdentityModel.Tokens;
 
 namespace BackEnd.Service.Service
@@ -24,12 +28,14 @@ namespace BackEnd.Service.Service
     private readonly TokenValidationParameters _TokenValidationParameters;
     private readonly BakEndContext _dataContext;
     private readonly IEmailSender _emailSender;
+    private readonly IPasswordHasher<ApplicationUser> _passwordHasher;
         public IdentityServices(UserManager<ApplicationUser> userManager,
       ApplicationSettings jwtSettings,
       TokenValidationParameters TokenValidationParameters,
       RoleManager<IdentityRole> roleManager,
       BakEndContext dataContext,
-      IEmailSender emailSender
+      IEmailSender emailSender,
+      IPasswordHasher<ApplicationUser> passwordHasher
       )
     {
       _userManager = userManager;
@@ -38,6 +44,7 @@ namespace BackEnd.Service.Service
       _TokenValidationParameters = TokenValidationParameters;
       _dataContext = dataContext;
       _emailSender = emailSender;
+      _passwordHasher = passwordHasher;
     }
 
     public async Task<AuthenticationResult> LoginAsync(string Email, string Password)
@@ -74,27 +81,37 @@ namespace BackEnd.Service.Service
             else
             {
                 //generate reset password token
-                 string resetToken = await _userManager.GeneratePasswordResetTokenAsync(user);
-
-                //send email with this code to email
-                if (!string.IsNullOrEmpty(resetToken))
+                int resetToken =  RandomCodeGenerator.RandomNumber();
+                user.Code = resetToken.ToString();
+                //save code in user table
+                IdentityResult codeSavedResult = await _userManager.UpdateAsync(user);
+                if (codeSavedResult.Succeeded)
                 {
                     //send email with this code to email
                     string subject = "Wuzzufny Forgot Password Code";
                     string body = "Kindly copy this code to use in <br>  mobile app Reset Password Page ,<br>  the code is  <br>" + resetToken;
-                    Message message = new Message(new List<string> { Email }, subject,body);
+                    Message message = new Message(new List<string> { Email }, subject, body);
                     await _emailSender.SendEmail(message);
+
+                    return new AuthenticationResult
+                    {
+                        Success = true,
+                        //Token = resetToken
+                    };
                 }
-                //
-                return new AuthenticationResult
+                else
                 {
-                    Success = true,
-                    //Token = resetToken
-                };
+                    return new AuthenticationResult
+                    {
+                        Success = false,
+                        Errors= codeSavedResult.Errors.Select(x=>x.Description)
+                    };
+                }
+               
             }
 
         }
-
+      
         public async Task<AuthenticationResult> ResetPassword(string Email, string Code,string NewPassword)
         {
             var user = await _userManager.FindByEmailAsync(Email);
@@ -104,41 +121,39 @@ namespace BackEnd.Service.Service
                 {
                     Errors = new[] { "User does not Exist" }
                 };
+            } else if(user.Code == null)
+            {
+                return new AuthenticationResult
+                {
+                    Errors = new[] { "Code does not Exist" }
+                };
             }
             else
             {
                
-                IdentityResult result = await _userManager.ResetPasswordAsync(user,Code,NewPassword);
+               // IdentityResult result = await _userManager.ResetPasswordAsync(user, Code,NewPassword);
+               if( user.Code == Code)
+               {
+                    string hasedPassword = _passwordHasher.HashPassword(user, NewPassword);
+                    user.PasswordHash = hasedPassword;
 
+                    IdentityResult result = await  _userManager.UpdateAsync(user);
+                    
+                    return new AuthenticationResult
+                    {
+                        Success = result.Succeeded,
+                        Errors = result.Errors.Select(x => x.Description)
+                    };
+                    
+               }
                 return new AuthenticationResult
                 {
-                    Success = result.Succeeded,
-                    Errors=result.Errors.Select(x => x.Description)
+                    Success = false,
+                    Errors = new[] { "Code does not Match" }
                 };
             }
 
         }
-
-
-        private ClaimsPrincipal GetPrincipalFromToken(string Token) {
-      var tokenHandler = new JwtSecurityTokenHandler();
-      try {
-        var principal = tokenHandler.ValidateToken(Token, _TokenValidationParameters, out var validtionToken);
-        if (!IsJwtWithValidationSecurityAlgorithm(validtionToken)) {
-          return null;
-        }
-        return principal;
-      }
-      catch {
-        return null;
-      }
-    }
-
-    private bool IsJwtWithValidationSecurityAlgorithm(SecurityToken validatedToken) {
-      return (validatedToken is JwtSecurityToken jwtSecurityToken)&&
-        jwtSecurityToken.Header.Alg.Equals(SecurityAlgorithms.HmacSha256,
-        StringComparison.InvariantCultureIgnoreCase);
-    }
 
     public async Task<AuthenticationResult> RegisterAsync(string UserName,string Email, string Password,string Roles)
     {
