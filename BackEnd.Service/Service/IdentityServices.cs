@@ -20,15 +20,15 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace BackEnd.Service.Service
 {
-  public class IdentityServices : IidentityServices
-  {
-    private readonly UserManager<ApplicationUser> _userManager;
-    private readonly RoleManager<IdentityRole> _roleManager;
-    private readonly ApplicationSettings _jwtSettings;
-    private readonly TokenValidationParameters _TokenValidationParameters;
-    private readonly BakEndContext _dataContext;
-    private readonly IEmailSender _emailSender;
-    private readonly IPasswordHasher<ApplicationUser> _passwordHasher;
+    public class IdentityServices : IidentityServices
+    {
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly ApplicationSettings _jwtSettings;
+        private readonly TokenValidationParameters _TokenValidationParameters;
+        private readonly BakEndContext _dataContext;
+        private readonly IEmailSender _emailSender;
+        private readonly IPasswordHasher<ApplicationUser> _passwordHasher;
         public IdentityServices(UserManager<ApplicationUser> userManager,
       ApplicationSettings jwtSettings,
       TokenValidationParameters TokenValidationParameters,
@@ -37,39 +37,69 @@ namespace BackEnd.Service.Service
       IEmailSender emailSender,
       IPasswordHasher<ApplicationUser> passwordHasher
       )
-    {
-      _userManager = userManager;
-      _roleManager = roleManager;
-      _jwtSettings = jwtSettings;
-      _TokenValidationParameters = TokenValidationParameters;
-      _dataContext = dataContext;
-      _emailSender = emailSender;
-      _passwordHasher = passwordHasher;
-    }
-
-    public async Task<AuthenticationResult> LoginAsync(string Email, string Password)
-    {
-      var user = await _userManager.FindByEmailAsync(Email);
-      if (user == null)
-      {
-        return new AuthenticationResult
         {
-          Errors = new[] { "User does not Exist" }
-        };
-      }
+            _userManager = userManager;
+            _roleManager = roleManager;
+            _jwtSettings = jwtSettings;
+            _TokenValidationParameters = TokenValidationParameters;
+            _dataContext = dataContext;
+            _emailSender = emailSender;
+            _passwordHasher = passwordHasher;
+        }
 
-      var userHasValidPassword = await _userManager.CheckPasswordAsync(user, Password);
-      if (!userHasValidPassword)
-      {
-        return new AuthenticationResult
+        public async Task<AuthenticationResult> LoginAsync(string Email, string Password)
         {
-          Errors = new[] { "User/Password combination wrong" }
-        };
-      }
-      return await GenerateAutheticationForResultForUser(user);
-    }
-    public async Task<AuthenticationResult> ForgotPassword(string Email)
-    {
+            var user = await _userManager.FindByEmailAsync(Email);
+            //check iof user exist
+            if (user == null)
+            {
+                return new AuthenticationResult
+                {
+                    Errors = new[] { "User does not Exist" }
+                };
+            }
+
+            //check password
+
+            var userHasValidPassword = await _userManager.CheckPasswordAsync(user, Password);
+
+            if (!userHasValidPassword)
+            {
+                return new AuthenticationResult
+                {
+                    Errors = new[] { "User/Password combination wrong" }
+                };
+            }
+
+            //check if user active
+            if (!user.IsActive)
+            {
+                return new AuthenticationResult
+                {
+                    Errors = new[] { "User is not Active" }
+                };
+            }
+
+            //check if user verified
+            if (!user.IsVerified)
+            {
+                AuthenticationResult result = await sendEmailWithCode("Wuzzufny Verification Code",
+                                     "Kindly copy this code to use in <br>  mobile app Verification Code Page ",
+                                      user);
+
+                if (result.Success)
+                    return new AuthenticationResult
+                    {
+                        Errors = new[] { "User is not Verified,Email Sent With code for verification" }
+                    };
+                else
+                    return result;
+            }
+            //here user is valid to login
+            return await GenerateAutheticationForResultForUser(user);
+        }
+        public async Task<AuthenticationResult> ForgotPassword(string Email)
+        {
             var user = await _userManager.FindByEmailAsync(Email);
             if (user == null)
             {
@@ -80,39 +110,14 @@ namespace BackEnd.Service.Service
             }
             else
             {
-                //generate reset password token
-                int resetToken =  RandomCodeGenerator.RandomNumber();
-                user.Code = resetToken.ToString();
-                //save code in user table
-                IdentityResult codeSavedResult = await _userManager.UpdateAsync(user);
-                if (codeSavedResult.Succeeded)
-                {
-                    //send email with this code to email
-                    string subject = "Wuzzufny Forgot Password Code";
-                    string body = "Kindly copy this code to use in <br>  mobile app Reset Password Page ,<br>  the code is  <br>" + resetToken;
-                    Message message = new Message(new List<string> { Email }, subject, body);
-                    await _emailSender.SendEmail(message);
-
-                    return new AuthenticationResult
-                    {
-                        Success = true,
-                        //Token = resetToken
-                    };
-                }
-                else
-                {
-                    return new AuthenticationResult
-                    {
-                        Success = false,
-                        Errors= codeSavedResult.Errors.Select(x=>x.Description)
-                    };
-                }
-               
+                return  await sendEmailWithCode("Wuzzufny Forgot Password Code",
+                                      "Kindly copy this code to use in <br>  mobile app Reset Password Page ",
+                                       user);
             }
 
         }
-      
-        public async Task<AuthenticationResult> ResetPassword(string Email, string Code,string NewPassword)
+
+        public async Task<AuthenticationResult> ResetPassword(string Email, string Code, string NewPassword)
         {
             var user = await _userManager.FindByEmailAsync(Email);
             if (user == null)
@@ -121,7 +126,8 @@ namespace BackEnd.Service.Service
                 {
                     Errors = new[] { "User does not Exist" }
                 };
-            } else if(user.Code == null)
+            }
+            else if (user.Code == null)
             {
                 return new AuthenticationResult
                 {
@@ -130,22 +136,22 @@ namespace BackEnd.Service.Service
             }
             else
             {
-               
-               // IdentityResult result = await _userManager.ResetPasswordAsync(user, Code,NewPassword);
-               if( user.Code == Code)
-               {
+
+                // IdentityResult result = await _userManager.ResetPasswordAsync(user, Code,NewPassword);
+                if (user.Code == Code)
+                {
                     string hasedPassword = _passwordHasher.HashPassword(user, NewPassword);
                     user.PasswordHash = hasedPassword;
 
-                    IdentityResult result = await  _userManager.UpdateAsync(user);
-                    
+                    IdentityResult result = await _userManager.UpdateAsync(user);
+
                     return new AuthenticationResult
                     {
                         Success = result.Succeeded,
                         Errors = result.Errors.Select(x => x.Description)
                     };
-                    
-               }
+
+                }
                 return new AuthenticationResult
                 {
                     Success = false,
@@ -155,83 +161,120 @@ namespace BackEnd.Service.Service
 
         }
 
-    public async Task<AuthenticationResult> RegisterAsync(string UserName,string Email, string Password,string Roles)
-    {
-      var existingUser = await _userManager.FindByEmailAsync(Email);
-      if (existingUser != null) {
-        return new AuthenticationResult{
-          Errors=new[] {"User with this email adress already Exist"}
-        };
-      }
+        public async Task<AuthenticationResult> RegisterAsync(string UserName, string Email, string Password, string Roles)
+        {
+            var existingUser = await _userManager.FindByEmailAsync(Email);
+            if (existingUser != null)
+            {
+                return new AuthenticationResult
+                {
+                    Errors = new[] { "User with this email adress already Exist" }
+                };
+            }
 
-      var newUser = new ApplicationUser
-      {
-        Email =Email,
-        UserName= UserName
-      };
+            var newUser = new ApplicationUser
+            {
+                Email = Email,
+                UserName = UserName
+            };
 
-      var createdUser = await _userManager.CreateAsync(newUser, Password);
+            var createdUser = await _userManager.CreateAsync(newUser, Password);
 
-      if (!createdUser.Succeeded) {
-        return new AuthenticationResult {
-          Errors = createdUser.Errors.Select(x=>x.Description)
-        };
-      }
+            if (!createdUser.Succeeded)
+            {
+                return new AuthenticationResult
+                {
+                    Errors = createdUser.Errors.Select(x => x.Description)
+                };
+            }
 
-      //-----------------------------add Role to token------------------
-      if (!string.IsNullOrEmpty(Roles)) { 
-      await _userManager.AddToRoleAsync(newUser,Roles);
-      }
-      //-----------------------------------------------------------------
+            //-----------------------------add Role to token------------------
+            if (!string.IsNullOrEmpty(Roles))
+            {
+                await _userManager.AddToRoleAsync(newUser, Roles);
+            }
+            //-----------------------------------------------------------------
 
-      return await GenerateAutheticationForResultForUser(newUser);
+            return await GenerateAutheticationForResultForUser(newUser);
 
 
-    }
+        }
 
-    private async Task<AuthenticationResult> GenerateAutheticationForResultForUser(ApplicationUser user) {
-      var TokenHandler = new JwtSecurityTokenHandler();
-      var key = Encoding.ASCII.GetBytes(_jwtSettings.JWT_Secret);
-      var claims = new List<Claim> {
+        private async Task<AuthenticationResult> GenerateAutheticationForResultForUser(ApplicationUser user)
+        {
+            var TokenHandler = new JwtSecurityTokenHandler();
+            var key = Encoding.ASCII.GetBytes(_jwtSettings.JWT_Secret);
+            var claims = new List<Claim> {
           new Claim(JwtRegisteredClaimNames.Sub,user.Email),
           new Claim(JwtRegisteredClaimNames.Jti,Guid.NewGuid().ToString()),
           new Claim(JwtRegisteredClaimNames.Email,user.Email),
           new Claim("id",user.Id)
           };
 
-      //get claims of user---------------------------------------
-      var Userclaims = await _userManager.GetClaimsAsync(user);
-      claims.AddRange(Userclaims);
-      //------------------------Add Roles to claims-----------------------------------
-      var userRols = await _userManager.GetRolesAsync(user);
+            //get claims of user---------------------------------------
+            var Userclaims = await _userManager.GetClaimsAsync(user);
+            claims.AddRange(Userclaims);
+            //------------------------Add Roles to claims-----------------------------------
+            var userRols = await _userManager.GetRolesAsync(user);
 
-      foreach (var userRole in userRols)
-      {
-        claims.Add(new Claim(ClaimTypes.Role, userRole));
-        var role = await _roleManager.FindByNameAsync(userRole);
-        if (role != null)
-        {
-          var roleClaims = await _roleManager.GetClaimsAsync(role);
-          foreach (Claim roleClaim in roleClaims)
-          {
-            claims.Add(roleClaim);
-          }
+            foreach (var userRole in userRols)
+            {
+                claims.Add(new Claim(ClaimTypes.Role, userRole));
+                var role = await _roleManager.FindByNameAsync(userRole);
+                if (role != null)
+                {
+                    var roleClaims = await _roleManager.GetClaimsAsync(role);
+                    foreach (Claim roleClaim in roleClaims)
+                    {
+                        claims.Add(roleClaim);
+                    }
+                }
+            }
+            //---------------------------------------------------------
+            var TokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = new ClaimsIdentity(claims),
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+            };
+            var token = TokenHandler.CreateToken(TokenDescriptor);
+            await _dataContext.SaveChangesAsync();
+            return new AuthenticationResult
+            {
+                Success = true,
+                Token = TokenHandler.WriteToken(token)
+
+            };
         }
-      }
-      //---------------------------------------------------------
-      var TokenDescriptor = new SecurityTokenDescriptor
-      {
-        Subject = new ClaimsIdentity(claims),
-        SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
-      };
-      var token = TokenHandler.CreateToken(TokenDescriptor);
-      await _dataContext.SaveChangesAsync();
-      return new AuthenticationResult
-      {
-        Success = true,
-        Token = TokenHandler.WriteToken(token)
+        private async Task<AuthenticationResult> sendEmailWithCode(string subject, string body, ApplicationUser user)
+        {
+            //generate reset password token
+            int resetToken = RandomCodeGenerator.RandomNumber();
+            user.Code = resetToken.ToString();
+            //save code in user table
+            IdentityResult codeSavedResult = await _userManager.UpdateAsync(user);
+            if (codeSavedResult.Succeeded)
+            {
+                //send email with this code to email
+                //string subject = "Wuzzufny Forgot Password Code";
+                //string body = "Kindly copy this code to use in <br>  mobile app Reset Password Page ,<br>  the code is  <br>" + resetToken;
+                Message message = new Message( new List<string> { user.Email }, subject, body + ",<br>  the code is  <br>" + resetToken);
+                await _emailSender.SendEmail(message);
 
-      };
+                return new AuthenticationResult
+                {
+                    Success = true,
+                    //Token = resetToken
+                };
+
+            }
+            else
+            {
+                return new AuthenticationResult
+                {
+                    Success = false,
+                    Errors = codeSavedResult.Errors.Select(x => x.Description)
+                };
+            }
+        }
     }
-  }
 }

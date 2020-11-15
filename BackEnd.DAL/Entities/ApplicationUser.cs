@@ -9,5 +9,7 @@ namespace BackEnd.DAL.Entities
     public class ApplicationUser : IdentityUser
     {
         public string Code { get; set; }
+        public bool IsActive { get; set; }
+        public bool IsVerified { get; set; }
     }
 }
