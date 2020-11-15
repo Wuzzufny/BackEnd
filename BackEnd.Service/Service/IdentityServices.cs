@@ -49,7 +49,7 @@ namespace BackEnd.Service.Service
     public async Task<AuthenticationResult> LoginAsync(string Email, string Password)
     {
       var user = await _userManager.FindByEmailAsync(Email);
-      //check iof user exist
+      //check if user exist
       if (user == null)
       {
         return new AuthenticationResult
