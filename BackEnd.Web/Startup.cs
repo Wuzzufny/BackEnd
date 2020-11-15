@@ -26,7 +26,8 @@ using System.IO;
 using System.Reflection;
 using BackEnd.Service.Service;
 using BackEnd.Service.IService;
-using BackEnd.Service.ISercice;
+using BackEnd.BAL.Repository;
+using BackEnd.BAL.Interfaces;
 
 namespace BackEnd.Web
 {
@@ -166,9 +167,10 @@ namespace BackEnd.Web
 
 
         services.AddScoped<IidentityServices, IdentityServices>();
+        services.AddScoped<IUnitOfWork,UnitOfWork>();
+        services.AddScoped<IClientService, ClientService>();
 
-
-    }
+        }
 
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

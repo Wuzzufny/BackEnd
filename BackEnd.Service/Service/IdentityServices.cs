@@ -11,7 +11,6 @@ using BackEnd.BAL.Models;
 using BackEnd.DAL.Context;
 using BackEnd.DAL.Entities;
 using BackEnd.Service.Helpers;
-using BackEnd.Service.ISercice;
 using BackEnd.Service.IService;
 using BackEnd.Service.Models;
 using Microsoft.AspNetCore.Identity;
@@ -21,7 +20,7 @@ using Microsoft.IdentityModel.Tokens;
 namespace BackEnd.Service.Service
 {
   public class IdentityServices : IidentityServices
-  {
+    {
     private readonly UserManager<ApplicationUser> _userManager;
     private readonly RoleManager<IdentityRole> _roleManager;
     private readonly ApplicationSettings _jwtSettings;
