@@ -12,7 +12,11 @@ namespace BackEnd.DAL.Context
 {
   public class BakEndContext : IdentityDbContext<ApplicationUser>, IBackEndContext
   {
-    public BakEndContext(DbContextOptions<BakEndContext> options) : base(options)
+        public DbSet<Client> Client { get; set; }
+        public DbSet<Country> Country { get; set; }
+        public DbSet<CompanySize> CompanySize { get; set; }
+        public DbSet<CompanyIndustry> CompanyIndustry { get; set; }
+        public BakEndContext(DbContextOptions<BakEndContext> options) : base(options)
     {
       
     }
