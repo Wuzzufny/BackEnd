@@ -404,3 +404,14 @@ ASALocalRun/
 # Local History for Visual Studio
 .localhistory/
 global.json
+bin
+obj
+BackEnd.BAL/obj
+BackEnd.DAL/obj
+BackEnd.Service/obj
+BackEnd.Web/obj
+
+BackEnd.BAL/bin
+BackEnd.DAL/bin
+BackEnd.Service/bin
+BackEnd.Web/bin
