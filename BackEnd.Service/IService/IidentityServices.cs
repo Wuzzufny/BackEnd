@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace BackEnd.Service.IService
 {
-  public interface IidentityServices
+  public interface IIdentityServices
   {
-    Task<AuthenticationResult> RegisterAsync(int? employeeId, string UserName,string Email,string Password, string Roles);
-    Task<AuthenticationResultObj> RegisterAsync( ApplicationUser user,string Password, string Roles);
-    Task<AuthenticationResult> LoginAsync(string Email, string Password);
-    Task<AuthenticationResult> ForgotPassword(string Email);
-    Task<AuthenticationResult> ResetPassword(string Email, string Code, string NewPassword);
-    Task<AuthenticationResult> VerifyCode(string Email, string Code);
-    Task<AuthenticationResult> sendEmailWithCode(string subject, string body, ApplicationUser user);
+    Task<AuthenticationResult> RegisterAsync(int? employeeId, string userName,string email,string password, string roles);
+    Task<AuthenticationResultObj> RegisterAsync( ApplicationUser user,string password, string roles);
+    Task<AuthenticationResult> LoginAsync(string email, string password);
+    Task<AuthenticationResult> ForgotPassword(string email);
+    Task<AuthenticationResult> ResetPassword(string email, string code, string newPassword);
+    Task<AuthenticationResult> VerifyCode(string email, string code);
+    Task<AuthenticationResult> SendEmailWithCode(string subject, string body, ApplicationUser user);
   }
 }

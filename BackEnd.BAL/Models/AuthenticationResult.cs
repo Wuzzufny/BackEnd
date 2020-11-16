@@ -9,13 +9,13 @@ namespace BackEnd.BAL.Models
   public class AuthenticationResult
   {
     public string Token { get; set; }
-    public Boolean Success { get; set; }
+    public bool Success { get; set; }
     public IEnumerable<string> Errors { get; set; }
   }
     public class AuthenticationResultObj
     {
-        public ApplicationUser user { get; set; }
-        public Boolean Success { get; set; }
+        public ApplicationUser User { get; set; }
+        public bool Success { get; set; }
         public IEnumerable<string> Errors { get; set; }
     }
 }

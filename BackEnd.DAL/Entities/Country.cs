@@ -6,7 +6,7 @@ namespace BackEnd.DAL.Entities
 {
    public class Country
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
         public string CountryName { get; set; }
     }
 }

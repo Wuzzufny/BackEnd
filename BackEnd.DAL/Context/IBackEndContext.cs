@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Text;
 
 
-namespace RealState.DAL.Context
+namespace BackEnd.DAL.Context
 {
   public interface IBackEndContext
   {

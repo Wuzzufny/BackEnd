@@ -10,18 +10,18 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BackEnd.Web.Controllers
 {
-   // [Route("api/[controller]")]
+    // [Route("api/[controller]")]
     [ApiController]
     public class RegisterController : ControllerBase
     {
-        private IClientService _iClientService;
-        public RegisterController(IClientService ClientService)
+        private readonly IClientService _iClientService;
+        public RegisterController(IClientService clientService)
         {
-            _iClientService = ClientService;
+            _iClientService = clientService;
         }
 
         [HttpPost(ApiRoute.Register.Employer)]
-        public async Task<IActionResult> Employer([FromBody] EmployerRegisterationRequest Employer_request)
+        public async Task<IActionResult> Employer([FromBody] EmployerRegisterationRequest employerRequest)
         {
             if (!ModelState.IsValid)
             {
@@ -29,20 +29,20 @@ namespace BackEnd.Web.Controllers
                 return BadRequest(ModelState.Values);
 
             }
-            var RegisterResponse = await _iClientService.RegisterEmployer(Employer_request);
-            if (!RegisterResponse.Success)
+            var registerResponse = await _iClientService.RegisterEmployer(employerRequest);
+            if (!registerResponse.Success)
             {
                 return BadRequest(
                     new AuthFaildResponse
                     {
-                        Errors = RegisterResponse.Errors
+                        Errors = registerResponse.Errors
                     }
                   );
             }
 
             return Ok(new AuthSuccessResponse
             {
-                Token = RegisterResponse.Token
+                Token = registerResponse.Token
             });
         }
     }

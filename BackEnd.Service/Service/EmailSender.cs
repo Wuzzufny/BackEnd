@@ -35,25 +35,23 @@ namespace BackEnd.Service.Service
         }
         private async Task Send(MimeMessage mailMessage)
         {
-            using (var client = new MailKit.Net.Smtp.SmtpClient())
+            using var client = new MailKit.Net.Smtp.SmtpClient();
+            try
             {
-                try
-                {
-                   await client.ConnectAsync(_emailConfig.SmtpServer, _emailConfig.Port, true);
-                    client.AuthenticationMechanisms.Remove("XOAUTH2");
-                   await client.AuthenticateAsync(_emailConfig.UserName, _emailConfig.Password);
-                   await client.SendAsync(mailMessage);
-                }
-                catch
-                {
-                    //log an error message or throw an exception or both.
-                    throw;
-                }
-                finally
-                {
-                   await client.DisconnectAsync(true);
-                   client.Dispose();
-                }
+                await client.ConnectAsync(_emailConfig.SmtpServer, _emailConfig.Port, true);
+                client.AuthenticationMechanisms.Remove("XOAUTH2");
+                await client.AuthenticateAsync(_emailConfig.UserName, _emailConfig.Password);
+                await client.SendAsync(mailMessage);
+            }
+            catch
+            {
+                //log an error message or throw an exception or both.
+                throw;
+            }
+            finally
+            {
+                await client.DisconnectAsync(true);
+                client.Dispose();
             }
         }
 

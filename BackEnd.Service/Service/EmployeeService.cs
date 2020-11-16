@@ -12,18 +12,18 @@ namespace BackEnd.Service.Service
 {
     public class EmployeeService : IEmployeeService
     {
-        private readonly IUnitOfWork uow;
-        private readonly IidentityServices identitySer;
-        public EmployeeService(IUnitOfWork _uow, IidentityServices _identitySer)
+        private readonly IUnitOfWork _uow;
+        private readonly IIdentityServices _identitySer;
+        public EmployeeService(IUnitOfWork uow, IIdentityServices identitySer)
         {
-            uow= _uow;
-            identitySer = _identitySer;
+            _uow= uow;
+            _identitySer = identitySer;
         }
         public async Task<AuthenticationResult> RegisterEmployee(EmployeeRegisterationRequest data)
         {
             try
             {
-                Employee Employee = new Employee()
+                var employee = new Employee()
                 {
                     FirstName = data.FirstName,
                     LastName = data.LastName,
@@ -31,40 +31,43 @@ namespace BackEnd.Service.Service
                     Email = data.Email,
                 };
 
-                uow.Repository<Employee>().Insert(Employee);
-
-                if (uow.Save() == 200)
+                var user = new ApplicationUser
                 {
-                    ApplicationUser user = new ApplicationUser
+                    Email=data.Email,
+                    //EmployeeID=Employee.ID,
+                    UserName=data.Email,
+                    IsActive=true
+                };
+                var result= await _identitySer.RegisterAsync( user, data.Password, "employee");
+                if (result.Success)
+                {
+                    employee.UserId = result.User.Id;
+                    _uow.Repository<Employee>().Insert(employee);
+
+                    if (_uow.Save() == 200)
                     {
-                        Email=data.Email,
-                        EmployeeID=Employee.ID,
-                        UserName=data.Email
-                    };
-                    AuthenticationResultObj result= await identitySer.RegisterAsync( user, data.Password, "employee");
-                    if (result.Success)
-                    {
-                        AuthenticationResult mailResult = await identitySer.sendEmailWithCode("Wuzzufny Verification Code",
-                             "Kindly copy this code to use in <br>  mobile app Verification Code Page ",
-                              result.user);
-                       
+                        var mailResult = await _identitySer.SendEmailWithCode("Wuzzufny Verification Code",
+                                                        "Kindly copy this code to use in <br>  mobile app Verification Code Page ",
+                                                        result.User);
+
                         return mailResult;
-                    }
+                    } 
                     else
+                    {
                         return new AuthenticationResult
                         {
-                            Errors = result.Errors.Select(x => x)
+                            Errors = new[] { "Can not save in Database" }
                         };
+                    }
+
                 }
                 else
-                {
                     return new AuthenticationResult
                     {
-                        Errors = new[] { "Can not save in Database" }
-                    }; 
-                }
+                        Errors = result.Errors.Select(x => x)
+                    };
             }
-            catch(Exception ex)
+            catch(Exception)
             {
                 return new AuthenticationResult
                 {

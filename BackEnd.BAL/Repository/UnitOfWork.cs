@@ -27,7 +27,7 @@ namespace BackEnd.BAL.Repository
 
         public virtual int Save()
         {
-            int returnValue = 200;
+            var returnValue = 200;
             using (var dbContextTransaction = Context.Database.BeginTransaction())
                 //  {
                 try
@@ -37,22 +37,12 @@ namespace BackEnd.BAL.Repository
                 }
                 catch (DbUpdateException ex)
                 {
-                    var sqlException = ex.GetBaseException() as SqlException;
+                    if (!(ex.GetBaseException() is SqlException sqlException)) return returnValue;
+                    var number = sqlException.Number;
 
-                    if (sqlException != null)
-                    {
-                        var number = sqlException.Number;
-
-                        if (number == 547)
-                        {
-                            returnValue = 501;
-
-                        }
-                        else
-                            returnValue = 500;
-                    }
+                    returnValue = number == 547 ? 501 : 500;
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     //Log Exception Handling message                      
                     returnValue = 500;
@@ -65,8 +55,8 @@ namespace BackEnd.BAL.Repository
 
         public virtual async Task<int> SaveAsync()
         {
-            int returnValue = 200;
-            using (var dbContextTransaction = Context.Database.BeginTransaction())
+            var returnValue = 200;
+            await using (var dbContextTransaction = Context.Database.BeginTransaction())
             {
                 try
                 {
@@ -75,20 +65,10 @@ namespace BackEnd.BAL.Repository
                 }
                 catch (DbUpdateException ex)
                 {
-                    var sqlException = ex.GetBaseException() as SqlException;
+                    if (!(ex.GetBaseException() is SqlException sqlException)) return returnValue;
+                    var number = sqlException.Number;
 
-                    if (sqlException != null)
-                    {
-                        var number = sqlException.Number;
-
-                        if (number == 547)
-                        {
-                            returnValue = 501;
-
-                        }
-                        else
-                            returnValue = 500;
-                    }
+                    returnValue = number == 547 ? 501 : 500;
                 }
                 catch (Exception)
                 {
@@ -101,20 +81,20 @@ namespace BackEnd.BAL.Repository
             return returnValue;
         }
 
-        private bool disposed = false;
+        private bool _disposed = false;
 
 
 
         protected virtual void Dispose(bool disposing)
         {
-            if (!this.disposed)
+            if (!this._disposed)
             {
                 if (disposing)
                 {
                     Context.Dispose();
                 }
             }
-            this.disposed = true;
+            this._disposed = true;
         }
 
         public void Dispose()

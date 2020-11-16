@@ -13,8 +13,9 @@ namespace BackEnd.DAL.Entities
         public bool IsActive { get; set; }
         public bool IsVerified { get; set; }
 
-        [ForeignKey("Employee")]
-        public int? EmployeeID { get; set; }
+        //[ForeignKey("Employee")]
+        //public int? EmployeeID { get; set; }
         public virtual Employee Employee { get; set; }
+        public virtual Client  Client { get; set; }
     }
 }

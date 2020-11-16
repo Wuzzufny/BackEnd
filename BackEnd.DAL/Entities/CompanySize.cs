@@ -6,7 +6,7 @@ namespace BackEnd.DAL.Entities
 {
     public class CompanySize
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
         public string Text { get; set; }
     }
 }

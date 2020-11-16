@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "G:\\wuzzuf\\BackEnd\\BackEnd.BAL\\BackEnd.BAL.csproj": {}
+    "C:\\Users\\Server\\Source\\Repos\\Wuzzufny\\BackEnd\\BackEnd.BAL\\BackEnd.BAL.csproj": {}
   },
   "projects": {
-    "G:\\wuzzuf\\BackEnd\\BackEnd.BAL\\BackEnd.BAL.csproj": {
+    "C:\\Users\\Server\\Source\\Repos\\Wuzzufny\\BackEnd\\BackEnd.BAL\\BackEnd.BAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\wuzzuf\\BackEnd\\BackEnd.BAL\\BackEnd.BAL.csproj",
+        "projectUniqueName": "C:\\Users\\Server\\Source\\Repos\\Wuzzufny\\BackEnd\\BackEnd.BAL\\BackEnd.BAL.csproj",
         "projectName": "BackEnd.BAL",
-        "projectPath": "G:\\wuzzuf\\BackEnd\\BackEnd.BAL\\BackEnd.BAL.csproj",
-        "packagesPath": "C:\\Users\\hebaa\\.nuget\\packages\\",
-        "outputPath": "G:\\wuzzuf\\BackEnd\\BackEnd.BAL\\obj\\",
+        "projectPath": "C:\\Users\\Server\\Source\\Repos\\Wuzzufny\\BackEnd\\BackEnd.BAL\\BackEnd.BAL.csproj",
+        "packagesPath": "C:\\Users\\Server\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Server\\Source\\Repos\\Wuzzufny\\BackEnd\\BackEnd.BAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\hebaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Server\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -31,9 +32,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "G:\\wuzzuf\\BackEnd\\BackEnd.DAL\\BackEnd.DAL.csproj": {
-                "projectPath": "G:\\wuzzuf\\BackEnd\\BackEnd.DAL\\BackEnd.DAL.csproj"
+              "C:\\Users\\Server\\Source\\Repos\\Wuzzufny\\BackEnd\\BackEnd.DAL\\BackEnd.DAL.csproj": {
+                "projectPath": "C:\\Users\\Server\\Source\\Repos\\Wuzzufny\\BackEnd\\BackEnd.DAL\\BackEnd.DAL.csproj"
               }
             }
           }
@@ -46,6 +48,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -64,26 +67,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\wuzzuf\\BackEnd\\BackEnd.DAL\\BackEnd.DAL.csproj": {
+    "C:\\Users\\Server\\Source\\Repos\\Wuzzufny\\BackEnd\\BackEnd.DAL\\BackEnd.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\wuzzuf\\BackEnd\\BackEnd.DAL\\BackEnd.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Server\\Source\\Repos\\Wuzzufny\\BackEnd\\BackEnd.DAL\\BackEnd.DAL.csproj",
         "projectName": "BackEnd.DAL",
-        "projectPath": "G:\\wuzzuf\\BackEnd\\BackEnd.DAL\\BackEnd.DAL.csproj",
-        "packagesPath": "C:\\Users\\hebaa\\.nuget\\packages\\",
-        "outputPath": "G:\\wuzzuf\\BackEnd\\BackEnd.DAL\\obj\\",
+        "projectPath": "C:\\Users\\Server\\Source\\Repos\\Wuzzufny\\BackEnd\\BackEnd.DAL\\BackEnd.DAL.csproj",
+        "packagesPath": "C:\\Users\\Server\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Server\\Source\\Repos\\Wuzzufny\\BackEnd\\BackEnd.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\hebaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Server\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -95,6 +99,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -106,6 +111,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "EntityFramework": {
               "target": "Package",
@@ -166,7 +172,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -10083,11 +10083,12 @@
       ]
     },
     "System.Xml.XmlSerializer/4.3.0": {
-      "sha512": "VShQJhOxgD/5M2Z1IWm1vMaSqlbjo1zdFf8H7Ahte6bTvSUhUko/gDpAVVhGgGgTDeue4QyNg1fu1Zz2GKSEuQ==",
+      "sha512": "MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "type": "package",
       "path": "system.xml.xmlserializer/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10181,25 +10182,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hebaa\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Server\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\wuzzuf\\BackEnd\\BackEnd.Web\\BackEnd.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Server\\Source\\Repos\\Wuzzufny\\BackEnd\\BackEnd.Web\\BackEnd.Web.csproj",
       "projectName": "BackEnd.Web",
-      "projectPath": "G:\\wuzzuf\\BackEnd\\BackEnd.Web\\BackEnd.Web.csproj",
-      "packagesPath": "C:\\Users\\hebaa\\.nuget\\packages\\",
-      "outputPath": "G:\\wuzzuf\\BackEnd\\BackEnd.Web\\obj\\",
+      "projectPath": "C:\\Users\\Server\\Source\\Repos\\Wuzzufny\\BackEnd\\BackEnd.Web\\BackEnd.Web.csproj",
+      "packagesPath": "C:\\Users\\Server\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Server\\Source\\Repos\\Wuzzufny\\BackEnd\\BackEnd.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\hebaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Server\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -10211,9 +10213,10 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "G:\\wuzzuf\\BackEnd\\BackEnd.Service\\BackEnd.Service.csproj": {
-              "projectPath": "G:\\wuzzuf\\BackEnd\\BackEnd.Service\\BackEnd.Service.csproj"
+            "C:\\Users\\Server\\Source\\Repos\\Wuzzufny\\BackEnd\\BackEnd.Service\\BackEnd.Service.csproj": {
+              "projectPath": "C:\\Users\\Server\\Source\\Repos\\Wuzzufny\\BackEnd\\BackEnd.Service\\BackEnd.Service.csproj"
             }
           }
         }
@@ -10226,6 +10229,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
@@ -10276,7 +10280,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

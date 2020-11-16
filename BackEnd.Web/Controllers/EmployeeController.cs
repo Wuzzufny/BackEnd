@@ -15,14 +15,14 @@ namespace BackEnd.Web.Controllers
     [ApiController]
     public class EmployeeController : ControllerBase
     {
-        private IEmployeeService _iEmployeeService;
-        public EmployeeController(IEmployeeService EmployeeService)
+        private readonly IEmployeeService _iEmployeeService;
+        public EmployeeController(IEmployeeService employeeService)
         {
-            _iEmployeeService = EmployeeService;
+            _iEmployeeService = employeeService;
         }
 
         [HttpPost(ApiRoute.Employee.Register)]
-        public async Task<IActionResult> Register([FromBody] EmployeeRegisterationRequest Employee_request)
+        public async Task<IActionResult> Register([FromBody] EmployeeRegisterationRequest employeeRequest)
         {
             if (!ModelState.IsValid)
             {
@@ -30,20 +30,20 @@ namespace BackEnd.Web.Controllers
                 return BadRequest(ModelState.Values);
 
             }
-            var RegisterResponse = await _iEmployeeService.RegisterEmployee(Employee_request);
-            if (!RegisterResponse.Success)
+            var registerResponse = await _iEmployeeService.RegisterEmployee(employeeRequest);
+            if (!registerResponse.Success)
             {
                 return BadRequest(
                     new AuthFaildResponse
                     {
-                        Errors = RegisterResponse.Errors
+                        Errors = registerResponse.Errors
                     }
                   );
             }
 
             return Ok(new AuthSuccessResponse
             {
-                Token = RegisterResponse.Token
+                Token = registerResponse.Token
             });
         }
     }

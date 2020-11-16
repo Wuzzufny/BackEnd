@@ -23,9 +23,9 @@ namespace BackEnd.BAL.Models
         public string CompanyWebSite { get; set; }
 
        
-        public int CountryID { get; set; }
-        public int IndustryID { get; set; }
-        public int CompanySizaID { get; set; }
+        public int CountryId { get; set; }
+        public int IndustryId { get; set; }
+        public int CompanySizaId { get; set; }
 
      
     }

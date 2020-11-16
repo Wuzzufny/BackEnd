@@ -12,9 +12,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Serialization;
 using BackEnd.BAL.Models;
-using RealState.DAL.Context;
-using Microsoft.AspNetCore.Identity;
 using BackEnd.DAL.Context;
+using Microsoft.AspNetCore.Identity;
 using BackEnd.DAL.Entities;
 using Project.Options;
 using Microsoft.OpenApi.Models;
@@ -136,7 +135,7 @@ namespace BackEnd.Web
       var tokenValidationParameters = new TokenValidationParameters
       {
         ValidateIssuerSigningKey = true,
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(jwtSettings.JWT_Secret)),
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(jwtSettings.JwtSecret)),
         ValidateIssuer = false,
         ValidateAudience = false,
         RequireExpirationTime = false,
@@ -166,7 +165,7 @@ namespace BackEnd.Web
         //----------------------end email settings
 
 
-        services.AddScoped<IidentityServices, IdentityServices>();
+        services.AddScoped<IIdentityServices, IdentityServices>();
         services.AddScoped<IUnitOfWork,UnitOfWork>();
         services.AddScoped<IClientService, ClientService>();
         services.AddScoped<IEmployeeService, EmployeeService>();
