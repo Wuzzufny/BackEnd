@@ -18,12 +18,16 @@ namespace BackEnd.BAL.ApiRoute
       public const string Roles = Base + "/Identity/Roles";
       public const string ForgotPassword = Base + "/Identity/ForgotPassword";
       public const string ResetPassword = Base + "/Identity/ResetPassword";
-    }
-
-        public static class Register
-        {
-            public const string Employer = Base + "/Register/Employer";
+      public const string VerifyRegistrationCode = Base + "/Identity/VerifyRegistrationCode";
         }
 
+    public static class Register
+    {
+        public const string Employer = Base + "/Register/Employer";
+    }
+    public static class Employee
+    {
+        public const string Register = Base + "/Employee/Register";
+    }
     }
 }

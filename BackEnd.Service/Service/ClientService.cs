@@ -40,7 +40,7 @@ namespace BackEnd.Service.Service
                 uow.Repository<Client>().Insert(client);
                 if (uow.Save() == 200)
                 {
-                    return await identitySer.RegisterAsync(client.Email, client.Email, client.Password, "employer");
+                    return await identitySer.RegisterAsync(null, client.Email, client.Email, client.Password, "employer");
                 }
                 else
                 {

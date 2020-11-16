@@ -169,6 +169,7 @@ namespace BackEnd.Web
         services.AddScoped<IidentityServices, IdentityServices>();
         services.AddScoped<IUnitOfWork,UnitOfWork>();
         services.AddScoped<IClientService, ClientService>();
+        services.AddScoped<IEmployeeService, EmployeeService>();
 
         }
 

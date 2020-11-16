@@ -28,7 +28,7 @@ namespace Project.Controllers.V1
         return BadRequest(ModelState.Values);
 
       }
-      var authResponse = await _identityService.RegisterAsync(request.UserName, request.Email, request.Password, request.Roles);
+      var authResponse = await _identityService.RegisterAsync(null,request.UserName, request.Email, request.Password, request.Roles);
       if (!authResponse.Success) {
         return BadRequest(
             new AuthFaildResponse {
@@ -115,5 +115,30 @@ namespace Project.Controllers.V1
 
         return Ok(true);
     }
-  }
+
+    [HttpPost(ApiRoute.Identity.VerifyRegistrationCode)]
+    public async Task<IActionResult> VerifyRegistrationCode(UserVerifyCodeRequest  userVerifyCodeRequest)
+    {
+        if (!ModelState.IsValid)
+        {
+            IEnumerable<string> ModelStateErrorMsgs = ModelState.Values.SelectMany(x => x.Errors.Select(xx => xx.ErrorMessage));
+            return BadRequest(ModelStateErrorMsgs);
+
+        }
+        AuthenticationResult result = await _identityService.VerifyCode(
+                                                userVerifyCodeRequest.Email,
+                                                userVerifyCodeRequest.Code );
+        if (!result.Success)
+        {
+            return BadRequest(
+                new AuthFaildResponse
+                {
+                    Errors = result.Errors
+                }
+                );
+        }
+
+        return Ok(true);
+    }
+    }
 }

@@ -1,3 +1,4 @@
+using BackEnd.DAL.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,4 +12,10 @@ namespace BackEnd.BAL.Models
     public Boolean Success { get; set; }
     public IEnumerable<string> Errors { get; set; }
   }
+    public class AuthenticationResultObj
+    {
+        public ApplicationUser user { get; set; }
+        public Boolean Success { get; set; }
+        public IEnumerable<string> Errors { get; set; }
+    }
 }

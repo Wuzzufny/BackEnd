@@ -159,8 +159,50 @@ namespace BackEnd.Service.Service
       }
 
     }
+        public async Task<AuthenticationResult> VerifyCode(string Email, string Code)
+        {
+            var user = await _userManager.FindByEmailAsync(Email);
+            if (user == null)
+            {
+                return new AuthenticationResult
+                {
+                    Errors = new[] { "User does not Exist" }
+                };
+            }
+            else if (user.Code == null)
+            {
+                return new AuthenticationResult
+                {
+                    Errors = new[] { "Code does not Exist" }
+                };
+            }
+            else
+            {
 
-    public async Task<AuthenticationResult> RegisterAsync(string UserName, string Email, string Password, string Roles)
+                if (user.Code == Code)
+                {
+                    user.IsVerified = true;
+
+                    IdentityResult result = await _userManager.UpdateAsync(user);
+
+                    return new AuthenticationResult
+                    {
+                        Success = result.Succeeded,
+                        Errors = result.Errors.Select(x => x.Description)
+                    };
+
+                }
+                return new AuthenticationResult
+                {
+                    Success = false,
+                    Errors = new[] { "Code does not Match" }
+                };
+            }
+
+        }
+
+
+        public async Task<AuthenticationResult> RegisterAsync(int? employeeId, string UserName, string Email, string Password, string Roles)
     {
       var existingUser = await _userManager.FindByEmailAsync(Email);
       if (existingUser != null)
@@ -174,8 +216,12 @@ namespace BackEnd.Service.Service
       var newUser = new ApplicationUser
       {
         Email = Email,
-        UserName = UserName
+        UserName = UserName,
+        IsActive=true,
       };
+
+      if (employeeId.HasValue)
+        newUser.EmployeeID = employeeId;
 
       var createdUser = await _userManager.CreateAsync(newUser, Password);
 
@@ -198,8 +244,52 @@ namespace BackEnd.Service.Service
 
 
     }
+        public async Task<AuthenticationResultObj> RegisterAsync( ApplicationUser user,string password, string Roles)
+        {
+            var existingUser = await _userManager.FindByEmailAsync(user.Email);
+            if (existingUser != null)
+            {
+                return new AuthenticationResultObj
+                {
+                    Errors = new[] { "User with this email adress already Exist" }
+                };
+            }
 
-    private async Task<AuthenticationResult> GenerateAutheticationForResultForUser(ApplicationUser user)
+            var newUser = new ApplicationUser
+            {
+                Email = user.Email,
+                UserName = user.UserName,
+                IsActive = true,
+            };
+
+
+            var createdUser = await _userManager.CreateAsync(newUser, password);
+
+            if (!createdUser.Succeeded)
+            {
+                return new AuthenticationResultObj
+                {
+                    Errors = createdUser.Errors.Select(x => x.Description)
+                };
+            }
+
+            //-----------------------------add Role to token------------------
+            if (!string.IsNullOrEmpty(Roles))
+            {
+                await _userManager.AddToRoleAsync(newUser, Roles);
+            }
+            //-----------------------------------------------------------------
+
+            // return await GenerateAutheticationForResultForUser(newUser);
+ 
+             return new AuthenticationResultObj
+            {
+               Success=true,
+               user= newUser
+             }; ;
+
+        }
+        private async Task<AuthenticationResult> GenerateAutheticationForResultForUser(ApplicationUser user)
     {
       var TokenHandler = new JwtSecurityTokenHandler();
       var key = Encoding.ASCII.GetBytes(_jwtSettings.JWT_Secret);
@@ -244,9 +334,9 @@ namespace BackEnd.Service.Service
 
       };
     }
-    private async Task<AuthenticationResult> sendEmailWithCode(string subject, string body, ApplicationUser user)
+    public async Task<AuthenticationResult> sendEmailWithCode(string subject, string body, ApplicationUser user)
     {
-      //generate reset password token
+     //generate reset password token
       int resetToken = RandomCodeGenerator.RandomNumber();
       user.Code = resetToken.ToString();
       //save code in user table
@@ -262,6 +352,7 @@ namespace BackEnd.Service.Service
         return new AuthenticationResult
         {
           Success = true,
+          
           //Token = resetToken
         };
 

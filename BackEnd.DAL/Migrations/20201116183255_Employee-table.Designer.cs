@@ -4,14 +4,16 @@ using BackEnd.DAL.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace BackEnd.DAL.Migrations
 {
     [DbContext(typeof(BakEndContext))]
-    partial class BakEndContextModelSnapshot : ModelSnapshot
+    [Migration("20201116183255_Employee-table")]
+    partial class Employeetable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -40,9 +42,6 @@ namespace BackEnd.DAL.Migrations
 
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
-
-                    b.Property<int?>("EmployeeID")
-                        .HasColumnType("int");
 
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
@@ -84,8 +83,6 @@ namespace BackEnd.DAL.Migrations
                         .HasMaxLength(256);
 
                     b.HasKey("Id");
-
-                    b.HasIndex("EmployeeID");
 
                     b.HasIndex("NormalizedEmail")
                         .HasName("EmailIndex");
@@ -221,15 +218,13 @@ namespace BackEnd.DAL.Migrations
                     b.Property<string>("LastName")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Password")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Title")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("UserID")
-                        .HasColumnType("nvarchar(450)");
-
                     b.HasKey("ID");
-
-                    b.HasIndex("UserID");
 
                     b.ToTable("Employee");
                 });
@@ -369,13 +364,6 @@ namespace BackEnd.DAL.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("BackEnd.DAL.Entities.ApplicationUser", b =>
-                {
-                    b.HasOne("BackEnd.DAL.Entities.Employee", "Employee")
-                        .WithMany()
-                        .HasForeignKey("EmployeeID");
-                });
-
             modelBuilder.Entity("BackEnd.DAL.Entities.Client", b =>
                 {
                     b.HasOne("BackEnd.DAL.Entities.CompanySize", "CompanySize")
@@ -395,13 +383,6 @@ namespace BackEnd.DAL.Migrations
                         .HasForeignKey("IndustryID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("BackEnd.DAL.Entities.Employee", b =>
-                {
-                    b.HasOne("BackEnd.DAL.Entities.ApplicationUser", "User")
-                        .WithMany()
-                        .HasForeignKey("UserID");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
