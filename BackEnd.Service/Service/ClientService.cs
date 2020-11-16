@@ -4,6 +4,7 @@ using BackEnd.DAL.Entities;
 using BackEnd.Service.IService;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -25,29 +26,53 @@ namespace BackEnd.Service.Service
                 Client client = new Client()
                 {
                     FirstName = data.FirstName,
-                    LastName = data.FirstName,
-                    Title = data.FirstName,
-                    Mobile = data.FirstName,
-                    Email = data.FirstName,
-                    Password = data.FirstName,
-                    CompanyName = data.FirstName,
-                    CompanyPhone = data.FirstName,
-                    CompanyWebSite = data.FirstName,
+                    LastName = data.LastName,
+                    Title = data.Title,
+                    Mobile = data.Mobile,
+                    Email = data.Email,
+                    CompanyName = data.CompanyName,
+                    CompanyPhone = data.CompanyPhone,
+                    CompanyWebSite = data.CompanyWebSite,
                     CountryID = data.CountryID,
                     IndustryID = data.IndustryID,
                     CompanySizaID = data.CompanySizaID
                 };
-                uow.Repository<Client>().Insert(client);
-                if (uow.Save() == 200)
+                ApplicationUser user = new ApplicationUser
                 {
-                    return await identitySer.RegisterAsync(null, client.Email, client.Email, client.Password, "employer");
+                    Email = data.Email,
+                    //EmployeeID=Employee.ID,
+                    UserName = data.Email,
+                    IsActive = true
+                };
+                AuthenticationResultObj result = await identitySer.RegisterAsync(user, data.Password, "employer");
+                if (result.Success)
+                {
+                    client.UserID = result.user.Id;
+
+                    uow.Repository<Client>().Insert(client);
+                    if (uow.Save() == 200)
+                    {
+                        AuthenticationResult mailResult = await identitySer.sendEmailWithCode("Wuzzufny Verification Code",
+                                                            "Kindly copy this code to use in <br>  mobile app Verification Code Page ",
+                                                            result.user);
+
+                        return mailResult;
+
+                    }
+                    else
+                    {
+                        return new AuthenticationResult
+                        {
+                            Errors = new[] { "Can not save in Database" }
+                        };
+                    }
                 }
                 else
                 {
                     return new AuthenticationResult
                     {
-                        Errors = new[] { "Can not save in Database" }
-                    }; 
+                        Errors = result.Errors.Select(x => x)
+                    };
                 }
             }
             catch(Exception ex)

@@ -31,38 +31,41 @@ namespace BackEnd.Service.Service
                     Email = data.Email,
                 };
 
-                uow.Repository<Employee>().Insert(Employee);
-
-                if (uow.Save() == 200)
+                ApplicationUser user = new ApplicationUser
                 {
-                    ApplicationUser user = new ApplicationUser
-                    {
-                        Email=data.Email,
-                        EmployeeID=Employee.ID,
-                        UserName=data.Email
-                    };
-                    AuthenticationResultObj result= await identitySer.RegisterAsync( user, data.Password, "employee");
-                    if (result.Success)
+                    Email=data.Email,
+                    //EmployeeID=Employee.ID,
+                    UserName=data.Email,
+                    IsActive=true
+                };
+                AuthenticationResultObj result= await identitySer.RegisterAsync( user, data.Password, "employee");
+                if (result.Success)
+                {
+                    Employee.UserID = result.user.Id;
+                    uow.Repository<Employee>().Insert(Employee);
+
+                    if (uow.Save() == 200)
                     {
                         AuthenticationResult mailResult = await identitySer.sendEmailWithCode("Wuzzufny Verification Code",
-                             "Kindly copy this code to use in <br>  mobile app Verification Code Page ",
-                              result.user);
-                       
+                                                        "Kindly copy this code to use in <br>  mobile app Verification Code Page ",
+                                                        result.user);
+
                         return mailResult;
-                    }
+                    } 
                     else
+                    {
                         return new AuthenticationResult
                         {
-                            Errors = result.Errors.Select(x => x)
+                            Errors = new[] { "Can not save in Database" }
                         };
+                    }
+
                 }
                 else
-                {
                     return new AuthenticationResult
                     {
-                        Errors = new[] { "Can not save in Database" }
-                    }; 
-                }
+                        Errors = result.Errors.Select(x => x)
+                    };
             }
             catch(Exception ex)
             {

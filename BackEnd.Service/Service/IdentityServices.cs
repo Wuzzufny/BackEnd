@@ -159,7 +159,7 @@ namespace BackEnd.Service.Service
       }
 
     }
-        public async Task<AuthenticationResult> VerifyCode(string Email, string Code)
+    public async Task<AuthenticationResult> VerifyCode(string Email, string Code)
         {
             var user = await _userManager.FindByEmailAsync(Email);
             if (user == null)
@@ -201,8 +201,7 @@ namespace BackEnd.Service.Service
 
         }
 
-
-        public async Task<AuthenticationResult> RegisterAsync(int? employeeId, string UserName, string Email, string Password, string Roles)
+    public async Task<AuthenticationResult> RegisterAsync(int? employeeId, string UserName, string Email, string Password, string Roles)
     {
       var existingUser = await _userManager.FindByEmailAsync(Email);
       if (existingUser != null)
@@ -220,8 +219,8 @@ namespace BackEnd.Service.Service
         IsActive=true,
       };
 
-      if (employeeId.HasValue)
-        newUser.EmployeeID = employeeId;
+      //if (employeeId.HasValue)
+      //  newUser.EmployeeID = employeeId;
 
       var createdUser = await _userManager.CreateAsync(newUser, Password);
 
@@ -255,15 +254,7 @@ namespace BackEnd.Service.Service
                 };
             }
 
-            var newUser = new ApplicationUser
-            {
-                Email = user.Email,
-                UserName = user.UserName,
-                IsActive = true,
-            };
-
-
-            var createdUser = await _userManager.CreateAsync(newUser, password);
+            var createdUser = await _userManager.CreateAsync(user, password);
 
             if (!createdUser.Succeeded)
             {
@@ -276,7 +267,7 @@ namespace BackEnd.Service.Service
             //-----------------------------add Role to token------------------
             if (!string.IsNullOrEmpty(Roles))
             {
-                await _userManager.AddToRoleAsync(newUser, Roles);
+                await _userManager.AddToRoleAsync(user, Roles);
             }
             //-----------------------------------------------------------------
 
@@ -285,7 +276,7 @@ namespace BackEnd.Service.Service
              return new AuthenticationResultObj
             {
                Success=true,
-               user= newUser
+               user= user
              }; ;
 
         }

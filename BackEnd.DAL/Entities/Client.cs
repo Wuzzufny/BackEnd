@@ -15,7 +15,7 @@ namespace BackEnd.DAL.Entities
         public string Mobile { get; set; }
         [EmailAddress]
         public string Email { get; set; }
-        public string Password { get; set; }
+        //public string Password { get; set; }
         [Required]
         public string CompanyName { get; set; }
         [Required]
@@ -36,5 +36,9 @@ namespace BackEnd.DAL.Entities
 
         public string Ref_Question { get; set; }
         public string Ref_Answer { get; set; }
+
+        [ForeignKey("User")]
+        public string UserID { get; set; }
+        public virtual ApplicationUser User { get; set; }
     }
 }
