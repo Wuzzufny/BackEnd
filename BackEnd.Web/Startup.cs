@@ -57,7 +57,7 @@ namespace BackEnd.Web
       services.AddCors(options =>
       {
         options.AddPolicy("CorsPolicy",
-            builder => builder.WithOrigins(Configuration["ApplicationSettings:Client_URL"].ToString())
+            builder => builder.WithOrigins(Configuration["ApplicationSettings:ReportConnection"].ToString())
             .AllowAnyMethod()
             .AllowAnyHeader()
             .AllowCredentials());
