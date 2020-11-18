@@ -150,7 +150,11 @@ namespace BackEnd.Service.Service
       }
 
     }
+<<<<<<< HEAD
     public async Task<AuthenticationResult> VerifyCode(string email, string code)
+=======
+    public async Task<AuthenticationResult> VerifyCode(string Email, string Code)
+>>>>>>> 914449123e20e4de4e5e3d0069bc6fb6e7886dca
         {
             var user = await _userManager.FindByEmailAsync(email);
             if (user == null)
@@ -188,7 +192,11 @@ namespace BackEnd.Service.Service
 
         }
 
+<<<<<<< HEAD
     public async Task<AuthenticationResult> RegisterAsync(int? employeeId, string userName, string email, string password, string roles)
+=======
+    public async Task<AuthenticationResult> RegisterAsync(int? employeeId, string UserName, string Email, string Password, string Roles)
+>>>>>>> 914449123e20e4de4e5e3d0069bc6fb6e7886dca
     {
       var existingUser = await _userManager.FindByEmailAsync(email);
       if (existingUser != null)
@@ -263,7 +271,11 @@ namespace BackEnd.Service.Service
              return new AuthenticationResultObj
             {
                Success=true,
+<<<<<<< HEAD
                User= user
+=======
+               user= user
+>>>>>>> 914449123e20e4de4e5e3d0069bc6fb6e7886dca
              }; ;
 
         }
