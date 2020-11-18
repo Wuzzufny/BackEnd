@@ -7682,12 +7682,11 @@
       ]
     },
     "System.Xml.XmlSerializer/4.3.0": {
-      "sha512": "MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
+      "sha512": "VShQJhOxgD/5M2Z1IWm1vMaSqlbjo1zdFf8H7Ahte6bTvSUhUko/gDpAVVhGgGgTDeue4QyNg1fu1Zz2GKSEuQ==",
       "type": "package",
       "path": "system.xml.xmlserializer/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7767,26 +7766,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Server\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\hebaa\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Server\\Source\\Repos\\Wuzzufny\\BackEnd\\BackEnd.DAL\\BackEnd.DAL.csproj",
+      "projectUniqueName": "G:\\wuzzuf\\BackendNew2\\BackEnd\\BackEnd.DAL\\BackEnd.DAL.csproj",
       "projectName": "BackEnd.DAL",
-      "projectPath": "C:\\Users\\Server\\Source\\Repos\\Wuzzufny\\BackEnd\\BackEnd.DAL\\BackEnd.DAL.csproj",
-      "packagesPath": "C:\\Users\\Server\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Server\\Source\\Repos\\Wuzzufny\\BackEnd\\BackEnd.DAL\\obj\\",
+      "projectPath": "G:\\wuzzuf\\BackendNew2\\BackEnd\\BackEnd.DAL\\BackEnd.DAL.csproj",
+      "packagesPath": "C:\\Users\\hebaa\\.nuget\\packages\\",
+      "outputPath": "G:\\wuzzuf\\BackendNew2\\BackEnd\\BackEnd.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Server\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hebaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -7798,7 +7796,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -7810,7 +7807,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "EntityFramework": {
             "target": "Package",
@@ -7871,7 +7867,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

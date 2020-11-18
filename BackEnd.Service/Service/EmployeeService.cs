@@ -31,19 +31,15 @@ namespace BackEnd.Service.Service
                     Email = data.Email,
                 };
 
-<<<<<<< HEAD
-                var user = new ApplicationUser
-=======
+
                 ApplicationUser user = new ApplicationUser
->>>>>>> 914449123e20e4de4e5e3d0069bc6fb6e7886dca
                 {
                     Email=data.Email,
-                    //EmployeeID=Employee.ID,
                     UserName=data.Email,
                     IsActive=true
                 };
-<<<<<<< HEAD
-                var result= await _identitySer.RegisterAsync( user, data.Password, "employee");
+
+                AuthenticationResultObj result= await _identitySer.RegisterAsync( user, data.Password, "employee");
                 if (result.Success)
                 {
                     employee.UserId = result.User.Id;
@@ -51,23 +47,10 @@ namespace BackEnd.Service.Service
 
                     if (_uow.Save() == 200)
                     {
-                        var mailResult = await _identitySer.SendEmailWithCode("Wuzzufny Verification Code",
+                        AuthenticationResult mailResult = await _identitySer.SendEmailWithCode("Wuzzufny Verification Code",
                                                         "Kindly copy this code to use in <br>  mobile app Verification Code Page ",
                                                         result.User);
-=======
-                AuthenticationResultObj result= await identitySer.RegisterAsync( user, data.Password, "employee");
-                if (result.Success)
-                {
-                    Employee.UserID = result.user.Id;
-                    uow.Repository<Employee>().Insert(Employee);
-
-                    if (uow.Save() == 200)
-                    {
-                        AuthenticationResult mailResult = await identitySer.sendEmailWithCode("Wuzzufny Verification Code",
-                                                        "Kindly copy this code to use in <br>  mobile app Verification Code Page ",
-                                                        result.user);
->>>>>>> 914449123e20e4de4e5e3d0069bc6fb6e7886dca
-
+ 
                         return mailResult;
                     } 
                     else

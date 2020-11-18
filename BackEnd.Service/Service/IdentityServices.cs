@@ -150,13 +150,9 @@ namespace BackEnd.Service.Service
       }
 
     }
-<<<<<<< HEAD
-    public async Task<AuthenticationResult> VerifyCode(string email, string code)
-=======
     public async Task<AuthenticationResult> VerifyCode(string Email, string Code)
->>>>>>> 914449123e20e4de4e5e3d0069bc6fb6e7886dca
         {
-            var user = await _userManager.FindByEmailAsync(email);
+            var user = await _userManager.FindByEmailAsync(Email);
             if (user == null)
             {
                 return new AuthenticationResult
@@ -173,7 +169,7 @@ namespace BackEnd.Service.Service
             }
             else
             {
-                if (user.Code != code)
+                if (user.Code != Code)
                     return new AuthenticationResult
                     {
                         Success = false,
@@ -192,13 +188,10 @@ namespace BackEnd.Service.Service
 
         }
 
-<<<<<<< HEAD
-    public async Task<AuthenticationResult> RegisterAsync(int? employeeId, string userName, string email, string password, string roles)
-=======
+
     public async Task<AuthenticationResult> RegisterAsync(int? employeeId, string UserName, string Email, string Password, string Roles)
->>>>>>> 914449123e20e4de4e5e3d0069bc6fb6e7886dca
-    {
-      var existingUser = await _userManager.FindByEmailAsync(email);
+     {
+      var existingUser = await _userManager.FindByEmailAsync(Email);
       if (existingUser != null)
       {
         return new AuthenticationResult
@@ -209,15 +202,12 @@ namespace BackEnd.Service.Service
 
       var newUser = new ApplicationUser
       {
-        Email = email,
-        UserName = userName,
+        Email = Email,
+        UserName = UserName,
         IsActive=true,
       };
 
-      //if (employeeId.HasValue)
-      //  newUser.EmployeeID = employeeId;
-
-      var createdUser = await _userManager.CreateAsync(newUser, password);
+      var createdUser = await _userManager.CreateAsync(newUser, Password);
 
       if (!createdUser.Succeeded)
       {
@@ -228,9 +218,9 @@ namespace BackEnd.Service.Service
       }
 
       //-----------------------------add Role to token------------------
-      if (!string.IsNullOrEmpty(roles))
+      if (!string.IsNullOrEmpty(Roles))
       {
-        await _userManager.AddToRoleAsync(newUser, roles);
+        await _userManager.AddToRoleAsync(newUser, Roles);
       }
       //-----------------------------------------------------------------
 
@@ -271,12 +261,9 @@ namespace BackEnd.Service.Service
              return new AuthenticationResultObj
             {
                Success=true,
-<<<<<<< HEAD
+
                User= user
-=======
-               user= user
->>>>>>> 914449123e20e4de4e5e3d0069bc6fb6e7886dca
-             }; ;
+              }; ;
 
         }
         private async Task<AuthenticationResult> GenerateAutheticationForResultForUser(ApplicationUser user)

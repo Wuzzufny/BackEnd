@@ -33,20 +33,11 @@ namespace BackEnd.DAL.Entities
         [ForeignKey("CompanySize")]
         public int CompanySizaId { get; set; }
         public virtual CompanySize CompanySize { get; set; }
-
-<<<<<<< HEAD
-        public string RefQuestion { get; set; }
-        public string RefAnswer { get; set; }
-
-        [ForeignKey("User")]
-        public string UserId { get; set; }
-=======
         public string Ref_Question { get; set; }
         public string Ref_Answer { get; set; }
 
         [ForeignKey("User")]
         public string UserID { get; set; }
->>>>>>> 914449123e20e4de4e5e3d0069bc6fb6e7886dca
         public virtual ApplicationUser User { get; set; }
     }
 }
