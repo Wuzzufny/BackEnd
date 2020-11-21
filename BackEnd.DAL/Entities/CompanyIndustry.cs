@@ -8,5 +8,6 @@ namespace BackEnd.DAL.Entities
     {
         public int Id { get; set; }
         public string Text { get; set; }
+        public virtual Company Company { get; set; }
     }
 }

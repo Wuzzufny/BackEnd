@@ -1070,6 +1070,7 @@ G:\wuzzuf\BackendNew2\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.Ra
 G:\wuzzuf\BackendNew2\BackEnd\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.csproj.CopyComplete
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\appsettings.json
+G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\libman.json
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.StaticWebAssets.xml
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.Web.exe
@@ -1100,6 +1101,7 @@ G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAna
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
@@ -1113,6 +1115,7 @@ G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensi
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
@@ -1158,6 +1161,9 @@ G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Diagnostic
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\X.PagedList.dll
+G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\X.PagedList.Mvc.Core.dll
+G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\X.PagedList.Web.Common.dll
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
@@ -1229,6 +1235,9 @@ G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\BackEnd.DAL.pdb
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.csprojAssemblyReference.cache
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.AssemblyInfoInputs.cache
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.AssemblyInfo.cs
+G:\Wazuffny\wazuffny 18 11\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.csproj.CoreCompileInputs.cache
+G:\Wazuffny\wazuffny 18 11\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.MvcApplicationPartsAssemblyInfo.cs
+G:\Wazuffny\wazuffny 18 11\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.MvcApplicationPartsAssemblyInfo.cache
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.RazorTargetAssemblyInfo.cache
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.csproj.CopyComplete
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\obj\Debug\netcoreapp3.1\staticwebassets\BackEnd.Web.StaticWebAssets.Manifest.cache
@@ -1236,11 +1245,3 @@ G:\Wazuffny\wazuffny 18 11\BackEnd.Web\obj\Debug\netcoreapp3.1\staticwebassets\B
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.dll
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.pdb
 G:\Wazuffny\wazuffny 18 11\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.genruntimeconfig.cache
-G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
-G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
-G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\X.PagedList.dll
-G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\X.PagedList.Mvc.Core.dll
-G:\Wazuffny\wazuffny 18 11\BackEnd.Web\bin\Debug\netcoreapp3.1\X.PagedList.Web.Common.dll
-G:\Wazuffny\wazuffny 18 11\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.csproj.CoreCompileInputs.cache
-G:\Wazuffny\wazuffny 18 11\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.MvcApplicationPartsAssemblyInfo.cs
-G:\Wazuffny\wazuffny 18 11\BackEnd.Web\obj\Debug\netcoreapp3.1\BackEnd.Web.MvcApplicationPartsAssemblyInfo.cache

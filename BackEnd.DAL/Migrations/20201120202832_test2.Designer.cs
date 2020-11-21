@@ -4,14 +4,16 @@ using BackEnd.DAL.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace BackEnd.DAL.Migrations
 {
     [DbContext(typeof(BakEndContext))]
-    partial class BakEndContextModelSnapshot : ModelSnapshot
+    [Migration("20201120202832_test2")]
+    partial class test2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -93,21 +95,6 @@ namespace BackEnd.DAL.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
-            modelBuilder.Entity("BackEnd.DAL.Entities.CareerLevel", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("careerlevel")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("CareerLevels");
-                });
-
             modelBuilder.Entity("BackEnd.DAL.Entities.Client", b =>
                 {
                     b.Property<int>("Id")
@@ -172,48 +159,6 @@ namespace BackEnd.DAL.Migrations
                         .HasFilter("[UserID] IS NOT NULL");
 
                     b.ToTable("Client");
-                });
-
-            modelBuilder.Entity("BackEnd.DAL.Entities.Company", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("CompanyImage")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("CompanyIndustryId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("CompanyName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("CompanyPhone")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("CompanySizeId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("CompanyWebsite")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("CountryId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("CompanyIndustryId")
-                        .IsUnique();
-
-                    b.HasIndex("CompanySizeId")
-                        .IsUnique();
-
-                    b.HasIndex("CountryId")
-                        .IsUnique();
-
-                    b.ToTable("Company");
                 });
 
             modelBuilder.Entity("BackEnd.DAL.Entities.CompanyIndustry", b =>
@@ -290,110 +235,6 @@ namespace BackEnd.DAL.Migrations
                         .HasFilter("[UserId] IS NOT NULL");
 
                     b.ToTable("Employee");
-                });
-
-            modelBuilder.Entity("BackEnd.DAL.Entities.Job", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int>("CareerLevelId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("CompanyImage")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("CompanyName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("JobDescription")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("JobLocation")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("JobQuestionsId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("JobRoleId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("JobTitle")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("JobTypeId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("MaxYearsEx")
-                        .HasColumnType("int");
-
-                    b.Property<int>("MinYearsEx")
-                        .HasColumnType("int");
-
-                    b.Property<string>("ReceiveApplicants")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("skills")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("CareerLevelId");
-
-                    b.HasIndex("JobQuestionsId");
-
-                    b.HasIndex("JobRoleId");
-
-                    b.HasIndex("JobTypeId");
-
-                    b.ToTable("Jobs");
-                });
-
-            modelBuilder.Entity("BackEnd.DAL.Entities.JobQuestions", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("jobquestions")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("JobQuestions");
-                });
-
-            modelBuilder.Entity("BackEnd.DAL.Entities.JobRole", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("jobrole")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("JobRoles");
-                });
-
-            modelBuilder.Entity("BackEnd.DAL.Entities.JobType", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("jobtype")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("JobTypes");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -556,59 +397,11 @@ namespace BackEnd.DAL.Migrations
                         .HasForeignKey("BackEnd.DAL.Entities.Client", "UserID");
                 });
 
-            modelBuilder.Entity("BackEnd.DAL.Entities.Company", b =>
-                {
-                    b.HasOne("BackEnd.DAL.Entities.CompanyIndustry", "CompanyIndustry")
-                        .WithOne("Company")
-                        .HasForeignKey("BackEnd.DAL.Entities.Company", "CompanyIndustryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("BackEnd.DAL.Entities.CompanySize", "CompanySize")
-                        .WithOne("Company")
-                        .HasForeignKey("BackEnd.DAL.Entities.Company", "CompanySizeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("BackEnd.DAL.Entities.Country", "Country")
-                        .WithOne("Company")
-                        .HasForeignKey("BackEnd.DAL.Entities.Company", "CountryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
             modelBuilder.Entity("BackEnd.DAL.Entities.Employee", b =>
                 {
                     b.HasOne("BackEnd.DAL.Entities.ApplicationUser", "User")
                         .WithOne("Employee")
                         .HasForeignKey("BackEnd.DAL.Entities.Employee", "UserId");
-                });
-
-            modelBuilder.Entity("BackEnd.DAL.Entities.Job", b =>
-                {
-                    b.HasOne("BackEnd.DAL.Entities.CareerLevel", "CareerLevel")
-                        .WithMany("Jobs")
-                        .HasForeignKey("CareerLevelId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("BackEnd.DAL.Entities.JobQuestions", "JobQuestions")
-                        .WithMany("Jobs")
-                        .HasForeignKey("JobQuestionsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("BackEnd.DAL.Entities.JobRole", "JobRole")
-                        .WithMany("Jobs")
-                        .HasForeignKey("JobRoleId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("BackEnd.DAL.Entities.JobType", "JobType")
-                        .WithMany("Jobs")
-                        .HasForeignKey("JobTypeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
