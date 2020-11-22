@@ -23,5 +23,7 @@ namespace BackEnd.DAL.Entities
         public int CompanySizeId { get; set; }
         public virtual CompanySize CompanySize { get; set; }
 
+        public virtual ICollection<Job> Jobs { get; set; }
+
     }
 }

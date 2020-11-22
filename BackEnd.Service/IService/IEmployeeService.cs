@@ -10,5 +10,6 @@ namespace BackEnd.Service.IService
     public interface IEmployeeService
     {
         Task<AuthenticationResult> RegisterEmployee(EmployeeRegisterationRequest data);
+        Task<IEnumerable<Job>> RetrieveJobs();
     }
 }

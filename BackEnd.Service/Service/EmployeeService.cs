@@ -76,5 +76,15 @@ namespace BackEnd.Service.Service
                 };
             }
         }
+
+
+        public async Task<IEnumerable<Job>> RetrieveJobs ()
+        {
+            //uow.Repository<Job>().Get().OrderByDescending(c => c.Id).ToList();
+            var result = _uow.Repository<Job>().Get().ToList();
+
+            return result;
+
+          }
     }
 }

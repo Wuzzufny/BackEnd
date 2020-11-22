@@ -22,7 +22,7 @@ namespace BackEnd.DAL.Context
         public DbSet<JobType> JobTypes { get; set; }
         public DbSet<JobRole> JobRoles { get; set; }
         public DbSet<CareerLevel> CareerLevels { get; set; }
-        public DbSet<JobQuestions> JobQuestions { get; set; }
+        public DbSet<JobQuestion> JobQuestions { get; set; }
 
 
 

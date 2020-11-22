@@ -28,6 +28,8 @@ namespace BackEnd.BAL.ApiRoute
     public static class Employee
     {
         public const string Register = Base + "/Employee/Register";
-    }
+        public const string EmployeeHome = Base + "/Employee/EmployeeHome";
+
+     }
     }
 }

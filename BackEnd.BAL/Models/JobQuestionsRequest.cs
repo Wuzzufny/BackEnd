@@ -2,13 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BackEnd.DAL.Entities
+namespace BackEnd.BAL.Models
 {
-    public class JobQuestions
+   public class JobQuestionsRequest
     {
         public int Id { get; set; }
         public string jobquestions { get; set; }
-        public virtual ICollection<Job> Jobs { get; set; }
-
     }
 }
