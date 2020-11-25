@@ -1,5 +1,6 @@
 ﻿using BackEnd.BAL.Interfaces;
 using BackEnd.BAL.Models;
+using BackEnd.BAL.Models.DTOs.Response;
 using BackEnd.DAL.Entities;
 using BackEnd.Service.IService;
 using System;
@@ -76,15 +77,6 @@ namespace BackEnd.Service.Service
                 };
             }
         }
-
-
-        public async Task<IEnumerable<Job>> RetrieveJobs ()
-        {
-            //uow.Repository<Job>().Get().OrderByDescending(c => c.Id).ToList();
-            var result = _uow.Repository<Job>().Get().ToList();
-
-            return result;
-
-          }
+ 
     }
 }

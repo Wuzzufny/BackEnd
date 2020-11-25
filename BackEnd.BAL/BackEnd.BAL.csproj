@@ -11,6 +11,7 @@
   <ItemGroup>
     <Folder Include="Interfaces\" />
     <Folder Include="ApiRoute\" />
+    <Folder Include="Models\DTOs\Request\" />
     <Folder Include="Repository\" />
   </ItemGroup>
 

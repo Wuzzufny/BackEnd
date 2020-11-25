@@ -48,11 +48,6 @@ namespace BackEnd.Web.Controllers
             });
         }
 
-        [HttpGet(ApiRoute.Employee.EmployeeHome)]
-        public async Task<IEnumerable<Job>> EmployeeHome()
-        {
-            var res =await _iEmployeeService.RetrieveJobs();
-            return res;
-        }
+    
     }
 }

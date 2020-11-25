@@ -17,7 +17,7 @@ namespace BackEnd.DAL.Entities
         public string CompanyImage { get; set; }
         [ForeignKey("CareerLevel")]
         public int CareerLevelId { get; set; }
-        public virtual CareerLevel CareerLevel { get; set; }    // Senior  Junior 
+        public virtual CareerLevel CareerLevel { get; set; }    // Senior  Junior  /// career path
         public int MinYearsEx { get; set; }
         public int MaxYearsEx { get; set; }
         [ForeignKey("JobRole")]
