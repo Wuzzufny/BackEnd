@@ -57,7 +57,7 @@ namespace BackEnd.Web
       services.AddCors(options =>
       {
         options.AddPolicy("CorsPolicy",
-            builder => builder.WithOrigins(Configuration["ApplicationSettings:Client_URL"].ToString())
+            builder => builder.WithOrigins(Configuration["ApplicationSettings:ClientUrl"].ToString())
             .AllowAnyMethod()
             .AllowAnyHeader()
             .AllowCredentials());
@@ -169,6 +169,7 @@ namespace BackEnd.Web
         services.AddScoped<IUnitOfWork,UnitOfWork>();
         services.AddScoped<IClientService, ClientService>();
         services.AddScoped<IEmployeeService, EmployeeService>();
+        services.AddScoped<IStaticPageService, StaticPageService>();
 
         }
 

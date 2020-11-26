@@ -19,7 +19,8 @@ namespace BackEnd.BAL.ApiRoute
       public const string ForgotPassword = Base + "/Identity/ForgotPassword";
       public const string ResetPassword = Base + "/Identity/ResetPassword";
       public const string VerifyRegistrationCode = Base + "/Identity/VerifyRegistrationCode";
-        }
+
+    }
 
     public static class Register
     {
@@ -28,6 +29,10 @@ namespace BackEnd.BAL.ApiRoute
     public static class Employee
     {
         public const string Register = Base + "/Employee/Register";
+    }
+    public static class StaticPage
+    {
+        public const string GetStaticPageContent = Base + "/StaticPage/GetPageContent";
     }
     }
 }

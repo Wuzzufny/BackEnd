@@ -17,6 +17,8 @@ namespace BackEnd.DAL.Context
         public DbSet<Country> Country { get; set; }
         public DbSet<CompanySize> CompanySize { get; set; }
         public DbSet<CompanyIndustry> CompanyIndustry { get; set; }
+        public DbSet<StaticPages> StaticPages { get; set; }
+        public DbSet<Referal> Referal { get; set; }
         public BakEndContext(DbContextOptions<BakEndContext> options) : base(options)
     {
       
