@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.Web\\BackEnd.Web.csproj": {}
+    "G:\\wazuffny 18 11\\BackEnd.Web\\BackEnd.Web.csproj": {}
   },
   "projects": {
-    "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.BAL\\BackEnd.BAL.csproj": {
+    "G:\\wazuffny 18 11\\BackEnd.BAL\\BackEnd.BAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.BAL\\BackEnd.BAL.csproj",
+        "projectUniqueName": "G:\\wazuffny 18 11\\BackEnd.BAL\\BackEnd.BAL.csproj",
         "projectName": "BackEnd.BAL",
-        "projectPath": "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.BAL\\BackEnd.BAL.csproj",
-        "packagesPath": "C:\\Users\\NoteBooK\\.nuget\\packages\\",
-        "outputPath": "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.BAL\\obj\\",
+        "projectPath": "G:\\wazuffny 18 11\\BackEnd.BAL\\BackEnd.BAL.csproj",
+        "packagesPath": "C:\\Users\\mohamed.naser\\.nuget\\packages\\",
+        "outputPath": "G:\\wazuffny 18 11\\BackEnd.BAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\NoteBooK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mohamed.naser\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.DAL\\BackEnd.DAL.csproj": {
-                "projectPath": "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.DAL\\BackEnd.DAL.csproj"
+              "G:\\wazuffny 18 11\\BackEnd.DAL\\BackEnd.DAL.csproj": {
+                "projectPath": "G:\\wazuffny 18 11\\BackEnd.DAL\\BackEnd.DAL.csproj"
               }
             }
           }
@@ -45,41 +45,27 @@
       "frameworks": {
         "netcoreapp3.1": {
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     },
-    "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.DAL\\BackEnd.DAL.csproj": {
+    "G:\\wazuffny 18 11\\BackEnd.DAL\\BackEnd.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.DAL\\BackEnd.DAL.csproj",
+        "projectUniqueName": "G:\\wazuffny 18 11\\BackEnd.DAL\\BackEnd.DAL.csproj",
         "projectName": "BackEnd.DAL",
-        "projectPath": "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.DAL\\BackEnd.DAL.csproj",
-        "packagesPath": "C:\\Users\\NoteBooK\\.nuget\\packages\\",
-        "outputPath": "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.DAL\\obj\\",
+        "projectPath": "G:\\wazuffny 18 11\\BackEnd.DAL\\BackEnd.DAL.csproj",
+        "packagesPath": "C:\\Users\\mohamed.naser\\.nuget\\packages\\",
+        "outputPath": "G:\\wazuffny 18 11\\BackEnd.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\NoteBooK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mohamed.naser\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -102,84 +88,28 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.4.4, )"
-            },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
-            "Microsoft.AspNetCore.Identity.UI": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.Proxies": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            }
-          },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     },
-    "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.Service\\BackEnd.Service.csproj": {
+    "G:\\wazuffny 18 11\\BackEnd.Service\\BackEnd.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.Service\\BackEnd.Service.csproj",
+        "projectUniqueName": "G:\\wazuffny 18 11\\BackEnd.Service\\BackEnd.Service.csproj",
         "projectName": "BackEnd.Service",
-        "projectPath": "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.Service\\BackEnd.Service.csproj",
-        "packagesPath": "C:\\Users\\NoteBooK\\.nuget\\packages\\",
-        "outputPath": "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.Service\\obj\\",
+        "projectPath": "G:\\wazuffny 18 11\\BackEnd.Service\\BackEnd.Service.csproj",
+        "packagesPath": "C:\\Users\\mohamed.naser\\.nuget\\packages\\",
+        "outputPath": "G:\\wazuffny 18 11\\BackEnd.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\NoteBooK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mohamed.naser\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -192,11 +122,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.BAL\\BackEnd.BAL.csproj": {
-                "projectPath": "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.BAL\\BackEnd.BAL.csproj"
+              "G:\\wazuffny 18 11\\BackEnd.BAL\\BackEnd.BAL.csproj": {
+                "projectPath": "G:\\wazuffny 18 11\\BackEnd.BAL\\BackEnd.BAL.csproj"
               },
-              "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.DAL\\BackEnd.DAL.csproj": {
-                "projectPath": "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.DAL\\BackEnd.DAL.csproj"
+              "G:\\wazuffny 18 11\\BackEnd.DAL\\BackEnd.DAL.csproj": {
+                "projectPath": "G:\\wazuffny 18 11\\BackEnd.DAL\\BackEnd.DAL.csproj"
               }
             }
           }
@@ -209,52 +139,28 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "NETCore.MailKit": {
-              "target": "Package",
-              "version": "[2.0.3, )"
-            },
-            "System.IdentityModel.Tokens.Jwt": {
-              "target": "Package",
-              "version": "[6.7.1, )"
-            }
-          },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     },
-    "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.Web\\BackEnd.Web.csproj": {
+    "G:\\wazuffny 18 11\\BackEnd.Web\\BackEnd.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.Web\\BackEnd.Web.csproj",
+        "projectUniqueName": "G:\\wazuffny 18 11\\BackEnd.Web\\BackEnd.Web.csproj",
         "projectName": "BackEnd.Web",
-        "projectPath": "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.Web\\BackEnd.Web.csproj",
-        "packagesPath": "C:\\Users\\NoteBooK\\.nuget\\packages\\",
-        "outputPath": "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.Web\\obj\\",
+        "projectPath": "G:\\wazuffny 18 11\\BackEnd.Web\\BackEnd.Web.csproj",
+        "packagesPath": "C:\\Users\\mohamed.naser\\.nuget\\packages\\",
+        "outputPath": "G:\\wazuffny 18 11\\BackEnd.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\NoteBooK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mohamed.naser\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -267,8 +173,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.Service\\BackEnd.Service.csproj": {
-                "projectPath": "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.Service\\BackEnd.Service.csproj"
+              "G:\\wazuffny 18 11\\BackEnd.Service\\BackEnd.Service.csproj": {
+                "projectPath": "G:\\wazuffny 18 11\\BackEnd.Service\\BackEnd.Service.csproj"
               }
             }
           }
@@ -281,61 +187,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[3.1.7, )"
-            },
-            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.Analyzers": {
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.5, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[3.1.4, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[5.5.1, )"
-            },
-            "Swashbuckle.AspNetCore.Swagger": {
-              "target": "Package",
-              "version": "[5.5.1, )"
-            },
-            "X.PagedList.Mvc.Core": {
-              "target": "Package",
-              "version": "[8.0.7, )"
-            }
-          },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     }
