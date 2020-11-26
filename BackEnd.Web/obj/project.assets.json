@@ -3194,7 +3194,10 @@
         },
         "runtime": {
           "bin/placeholder/BackEnd.BAL.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "BackEnd.DAL/1.0.0": {
         "type": "project",
@@ -3213,7 +3216,10 @@
         },
         "runtime": {
           "bin/placeholder/BackEnd.DAL.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "BackEnd.Service/1.0.0": {
         "type": "project",
@@ -3229,7 +3235,10 @@
         },
         "runtime": {
           "bin/placeholder/BackEnd.Service.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -5804,7 +5813,7 @@
       ]
     },
     "System.Collections.Specialized/4.3.0": {
-      "sha512": "Epx8PoVZR0iuOnJJDzp7pWvdfMMOAvpUo95pC4ScH2mJuXkKA2Y4aR3cG9qt2klHgSons1WFh4kcGW7cSXvrxg==",
+      "sha512": "NoPBj0ykejqAWW4p4gGtrrL+3c84ZLSvGnHgq422ew1Rj4WKj1FA8/BCybqC111EtgcqUl6ZJNFYYS22HLgbjA==",
       "type": "package",
       "path": "system.collections.specialized/4.3.0",
       "files": [
@@ -5989,7 +5998,7 @@
       ]
     },
     "System.ComponentModel.Primitives/4.3.0": {
-      "sha512": "j8GUkCpM8V4d4vhLIIoBLGey2Z5bCkMVNjEZseyAlm4n5arcsJOeI3zkUP+zvZgzsbLTYh4lYeP/ZD/gdIAPrw==",
+      "sha512": "KMVuoQ+8bMQ/Z59M3s64num5AD74X5YSqVc7ibwGkPTfmmkl2W8VuSxLRJtpw4KzQrSKUgR0BLbF0adPfcTSGQ==",
       "type": "package",
       "path": "system.componentmodel.primitives/4.3.0",
       "files": [
@@ -10074,11 +10083,12 @@
       ]
     },
     "System.Xml.XmlSerializer/4.3.0": {
-      "sha512": "VShQJhOxgD/5M2Z1IWm1vMaSqlbjo1zdFf8H7Ahte6bTvSUhUko/gDpAVVhGgGgTDeue4QyNg1fu1Zz2GKSEuQ==",
+      "sha512": "MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "type": "package",
       "path": "system.xml.xmlserializer/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10172,39 +10182,37 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hebaa\\.nuget\\packages\\": {},
+    "C:\\Users\\NoteBooK\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\wuzzuf\\BackendNew2\\BackEnd\\BackEnd.Web\\BackEnd.Web.csproj",
+      "projectUniqueName": "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.Web\\BackEnd.Web.csproj",
       "projectName": "BackEnd.Web",
-      "projectPath": "G:\\wuzzuf\\BackendNew2\\BackEnd\\BackEnd.Web\\BackEnd.Web.csproj",
-      "packagesPath": "C:\\Users\\hebaa\\.nuget\\packages\\",
-      "outputPath": "G:\\wuzzuf\\BackendNew2\\BackEnd\\BackEnd.Web\\obj\\",
+      "projectPath": "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.Web\\BackEnd.Web.csproj",
+      "packagesPath": "C:\\Users\\NoteBooK\\.nuget\\packages\\",
+      "outputPath": "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\hebaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+        "C:\\Users\\NoteBooK\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "G:\\wuzzuf\\BackendNew2\\BackEnd\\BackEnd.Service\\BackEnd.Service.csproj": {
-              "projectPath": "G:\\wuzzuf\\BackendNew2\\BackEnd\\BackEnd.Service\\BackEnd.Service.csproj"
+            "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.Service\\BackEnd.Service.csproj": {
+              "projectPath": "G:\\Wazuffny\\wazuffny 18 11\\BackEnd.Service\\BackEnd.Service.csproj"
             }
           }
         }
@@ -10267,7 +10275,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
