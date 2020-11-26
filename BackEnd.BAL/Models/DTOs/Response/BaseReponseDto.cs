@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BackEnd.BAL.Models
+namespace BackEnd.BAL.Models.DTOs.Response
 {
-   public class JobQuestionsRequest
+    public class BaseReponseDto
     {
         public int Id { get; set; }
-        public string jobquestions { get; set; }
     }
 }

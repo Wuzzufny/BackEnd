@@ -31,5 +31,12 @@ namespace BackEnd.BAL.ApiRoute
         public const string EmployeeHome = Base + "/Employee/EmployeeHome";
 
      }
+
+        public static class Job
+        {
+           
+            public const string JobHome = Base + "/Job/JobHome";
+
+        }
     }
 }
