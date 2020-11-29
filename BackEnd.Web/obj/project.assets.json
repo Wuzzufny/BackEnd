@@ -3693,7 +3693,10 @@
         },
         "runtime": {
           "bin/placeholder/BackEnd.BAL.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "BackEnd.DAL/1.0.0": {
         "type": "project",
@@ -3712,7 +3715,10 @@
         },
         "runtime": {
           "bin/placeholder/BackEnd.DAL.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "BackEnd.Service/1.0.0": {
         "type": "project",

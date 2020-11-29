@@ -57,7 +57,7 @@ namespace BackEnd.Web
       services.AddCors(options =>
       {
         options.AddPolicy("CorsPolicy",
-            builder => builder.WithOrigins(Configuration["ApplicationSettings:ReportConnection"].ToString())
+            builder => builder.WithOrigins(Configuration["ApplicationSettings:ClientUrl"].ToString())
             .AllowAnyMethod()
             .AllowAnyHeader()
             .AllowCredentials());
@@ -169,14 +169,13 @@ namespace BackEnd.Web
         services.AddScoped<IUnitOfWork,UnitOfWork>();
         services.AddScoped<IClientService, ClientService>();
         services.AddScoped<IEmployeeService, EmployeeService>();
-        services.AddScoped<IJobService, JobService>();
-
+        services.AddScoped<IStaticPageService, StaticPageService>();
 
         }
 
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+    // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     {
       if (env.IsDevelopment())
       {

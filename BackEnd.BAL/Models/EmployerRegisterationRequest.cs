@@ -26,7 +26,8 @@ namespace BackEnd.BAL.Models
         public int CountryId { get; set; }
         public int IndustryId { get; set; }
         public int CompanySizaId { get; set; }
+        public int ReferalId { get; set; }
 
-     
+
     }
 }

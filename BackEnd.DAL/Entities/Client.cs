@@ -33,6 +33,11 @@ namespace BackEnd.DAL.Entities
         [ForeignKey("CompanySize")]
         public int CompanySizaId { get; set; }
         public virtual CompanySize CompanySize { get; set; }
+
+        [ForeignKey("Referal")]
+        public int ReferalId { get; set; }
+        public virtual Referal Referal { get; set; }
+
         public string Ref_Question { get; set; }
         public string Ref_Answer { get; set; }
 

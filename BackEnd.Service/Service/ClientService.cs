@@ -35,7 +35,8 @@ namespace BackEnd.Service.Service
                     CompanyWebSite = data.CompanyWebSite,
                     CountryId = data.CountryId,
                     IndustryId = data.IndustryId,
-                    CompanySizaId = data.CompanySizaId
+                    CompanySizaId = data.CompanySizaId,
+                    ReferalId=data.ReferalId
                 };
                 ApplicationUser user = new ApplicationUser
                 {

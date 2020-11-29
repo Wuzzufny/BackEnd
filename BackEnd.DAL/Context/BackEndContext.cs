@@ -28,6 +28,8 @@ namespace BackEnd.DAL.Context
 
 
 
+        public DbSet<StaticPages> StaticPages { get; set; }
+        public DbSet<Referal> Referal { get; set; }
         public BakEndContext(DbContextOptions<BakEndContext> options) : base(options)
     {
       
