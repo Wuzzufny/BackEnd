@@ -20,7 +20,7 @@ namespace BackEnd.Web.Controllers
         }
         //  retrieve all jobs 
         [HttpGet(ApiRoute.Job.JobHome)]
-        public async Task<IActionResult> EmployeeHome(int? pageNumber, int? pageSize)
+        public async Task<IActionResult> JobHome(int? pageNumber, int? pageSize)
         {
             var res = await _iJobService.RetrieveJobs( pageNumber , pageSize);
             if(res == null)

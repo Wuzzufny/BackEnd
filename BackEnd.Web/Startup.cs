@@ -170,6 +170,7 @@ namespace BackEnd.Web
         services.AddScoped<IClientService, ClientService>();
         services.AddScoped<IEmployeeService, EmployeeService>();
         services.AddScoped<IStaticPageService, StaticPageService>();
+        services.AddScoped<IJobService, JobService>();
 
         }
 

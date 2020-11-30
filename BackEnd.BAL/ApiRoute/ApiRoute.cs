@@ -34,14 +34,13 @@ namespace BackEnd.BAL.ApiRoute
     {
         public const string GetStaticPageContent = Base + "/StaticPage/GetPageContent";
     }
-
-     }
-
         public static class Job
         {
-           
             public const string JobHome = Base + "/Job/JobHome";
-
         }
+
     }
-}
+
+     
+    }
+

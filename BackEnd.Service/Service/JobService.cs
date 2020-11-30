@@ -32,7 +32,6 @@ namespace BackEnd.Service.Service
                 MaxYearsEx = a.MaxYearsEx,
                 ReceiveApplicants = a.ReceiveApplicants,
                 skills = a.skills,
-                JobQuestionsDto = a.JobQuestions.Where(j => j.jobid == a.Id).Select(s => new JobQuestionsDto { Id = s.Id, jobquestions = s.jobquestions }).ToList()
             }).Skip((int)pageNumber).Take((int)pageSize);
             return result;
 

@@ -16,7 +16,6 @@ namespace BackEnd.BAL.Models.DTOs.Response
         public CareerLevelResponseDto careerLevel { get; set; }
         public JobRoleResponseDto jobRole { get; set; }
         public CompanyResponseDto companyResponse { get; set; }
-        public List <JobQuestionsDto> JobQuestionsDto { get; set; }
        
     }
 }
