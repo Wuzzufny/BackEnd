@@ -4,14 +4,16 @@ using BackEnd.DAL.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace BackEnd.DAL.Migrations
 {
     [DbContext(typeof(BakEndContext))]
-    partial class BakEndContextModelSnapshot : ModelSnapshot
+    [Migration("20201122220705_updateHomePageV1")]
+    partial class updateHomePageV1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -153,9 +155,6 @@ namespace BackEnd.DAL.Migrations
                     b.Property<string>("Ref_Question")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ReferalId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Title")
                         .HasColumnType("nvarchar(max)");
 
@@ -169,8 +168,6 @@ namespace BackEnd.DAL.Migrations
                     b.HasIndex("CountryId");
 
                     b.HasIndex("IndustryId");
-
-                    b.HasIndex("ReferalId");
 
                     b.HasIndex("UserID")
                         .IsUnique()
@@ -406,39 +403,6 @@ namespace BackEnd.DAL.Migrations
                     b.ToTable("JobTypes");
                 });
 
-            modelBuilder.Entity("BackEnd.DAL.Entities.Referal", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Referals")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Referal");
-                });
-
-            modelBuilder.Entity("BackEnd.DAL.Entities.StaticPages", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("PageContent")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PageName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("StaticPages");
-                });
-
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
@@ -591,12 +555,6 @@ namespace BackEnd.DAL.Migrations
                     b.HasOne("BackEnd.DAL.Entities.CompanyIndustry", "CompanyIndustry")
                         .WithMany()
                         .HasForeignKey("IndustryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("BackEnd.DAL.Entities.Referal", "Referal")
-                        .WithMany()
-                        .HasForeignKey("ReferalId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

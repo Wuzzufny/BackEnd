@@ -4,14 +4,16 @@ using BackEnd.DAL.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace BackEnd.DAL.Migrations
 {
     [DbContext(typeof(BakEndContext))]
-    partial class BakEndContextModelSnapshot : ModelSnapshot
+    [Migration("20201120203331_HomeV3")]
+    partial class HomeV3
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -153,9 +155,6 @@ namespace BackEnd.DAL.Migrations
                     b.Property<string>("Ref_Question")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ReferalId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Title")
                         .HasColumnType("nvarchar(max)");
 
@@ -169,8 +168,6 @@ namespace BackEnd.DAL.Migrations
                     b.HasIndex("CountryId");
 
                     b.HasIndex("IndustryId");
-
-                    b.HasIndex("ReferalId");
 
                     b.HasIndex("UserID")
                         .IsUnique()
@@ -307,20 +304,20 @@ namespace BackEnd.DAL.Migrations
                     b.Property<int>("CareerLevelId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("CompanyId")
-                        .HasColumnType("int");
-
                     b.Property<string>("CompanyImage")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("CompanyName")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("JobDescription")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("JobLocation")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("JobQuestionsId")
+                        .HasColumnType("int");
 
                     b.Property<int>("JobRoleId")
                         .HasColumnType("int");
@@ -347,7 +344,7 @@ namespace BackEnd.DAL.Migrations
 
                     b.HasIndex("CareerLevelId");
 
-                    b.HasIndex("CompanyId");
+                    b.HasIndex("JobQuestionsId");
 
                     b.HasIndex("JobRoleId");
 
@@ -356,22 +353,17 @@ namespace BackEnd.DAL.Migrations
                     b.ToTable("Jobs");
                 });
 
-            modelBuilder.Entity("BackEnd.DAL.Entities.JobQuestion", b =>
+            modelBuilder.Entity("BackEnd.DAL.Entities.JobQuestions", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("jobId")
-                        .HasColumnType("int");
-
                     b.Property<string>("jobquestions")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("jobId");
 
                     b.ToTable("JobQuestions");
                 });
@@ -404,39 +396,6 @@ namespace BackEnd.DAL.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("JobTypes");
-                });
-
-            modelBuilder.Entity("BackEnd.DAL.Entities.Referal", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Referals")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Referal");
-                });
-
-            modelBuilder.Entity("BackEnd.DAL.Entities.StaticPages", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("PageContent")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PageName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("StaticPages");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -594,12 +553,6 @@ namespace BackEnd.DAL.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("BackEnd.DAL.Entities.Referal", "Referal")
-                        .WithMany()
-                        .HasForeignKey("ReferalId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("BackEnd.DAL.Entities.ApplicationUser", "User")
                         .WithOne("Client")
                         .HasForeignKey("BackEnd.DAL.Entities.Client", "UserID");
@@ -641,9 +594,11 @@ namespace BackEnd.DAL.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("BackEnd.DAL.Entities.Company", "Company")
+                    b.HasOne("BackEnd.DAL.Entities.JobQuestions", "JobQuestions")
                         .WithMany("Jobs")
-                        .HasForeignKey("CompanyId");
+                        .HasForeignKey("JobQuestionsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("BackEnd.DAL.Entities.JobRole", "JobRole")
                         .WithMany("Jobs")
@@ -656,13 +611,6 @@ namespace BackEnd.DAL.Migrations
                         .HasForeignKey("JobTypeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("BackEnd.DAL.Entities.JobQuestion", b =>
-                {
-                    b.HasOne("BackEnd.DAL.Entities.Job", "job")
-                        .WithMany("JobQuestions")
-                        .HasForeignKey("jobId");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

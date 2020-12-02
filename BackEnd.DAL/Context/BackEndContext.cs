@@ -17,6 +17,17 @@ namespace BackEnd.DAL.Context
         public DbSet<Country> Country { get; set; }
         public DbSet<CompanySize> CompanySize { get; set; }
         public DbSet<CompanyIndustry> CompanyIndustry { get; set; }
+        public DbSet<Company> Company { get; set; }
+        public DbSet<Job> Jobs { get; set; }
+        public DbSet<JobType> JobTypes { get; set; }
+        public DbSet<JobRole> JobRoles { get; set; }
+        public DbSet<CareerLevel> CareerLevels { get; set; }
+        public DbSet<JobQuestion> JobQuestions { get; set; }
+
+
+
+
+
         public DbSet<StaticPages> StaticPages { get; set; }
         public DbSet<Referal> Referal { get; set; }
         public BakEndContext(DbContextOptions<BakEndContext> options) : base(options)

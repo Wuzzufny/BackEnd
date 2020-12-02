@@ -4,11 +4,10 @@ using System.Text;
 
 namespace BackEnd.DAL.Entities
 {
-    public class CompanySize
+    public class JobType
     {
         public int Id { get; set; }
-        public string Text { get; set; }
-        public virtual Company Company { get; set; }
-
+        public string jobtype { get; set; }
+        public virtual ICollection<Job> Jobs { get; set; }
     }
 }

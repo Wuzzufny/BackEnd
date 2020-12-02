@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using BackEnd.BAL.ApiRoute;
 using BackEnd.BAL.Models;
+using BackEnd.DAL.Entities;
 using BackEnd.Service.IService;
 using BackEnd.Service.Service;
 using Microsoft.AspNetCore.Http;
@@ -46,5 +47,7 @@ namespace BackEnd.Web.Controllers
                 Token = registerResponse.Token
             });
         }
+
+    
     }
 }
